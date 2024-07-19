@@ -1,7 +1,9 @@
 var wikimode=0
 var selchar=-1
 // var filter="stat/rate/wavrg"
-var filter="stat/month/this"
+// var filter="stat/month/this"
+var filter="stat/noimage"
+
 var classDearreyer = [0,"support",2,"uncommon",4,"rare",6,7,"epic",9,"legendary"]
 var classes = [1,3,5,8,10]
 
