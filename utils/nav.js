@@ -532,7 +532,7 @@ function makerProfile(makername) {
                 let images2 = document.createElement("div")
                 images2.classList.add("rankcard")
                 // console.log(rankid);
-                images2.style.backgroundImage = "url(../../utils/extra/ranks/" + rankdata[rankid].imgName + ")"
+                images2.style.backgroundImage = "url(../../utils/img/extra/ranks/" + rankdata[rankid].imgName + ")"
                 images2.style.width = "100%"
                 images1.appendChild(images2)
                 rankkard.appendChild(images1)

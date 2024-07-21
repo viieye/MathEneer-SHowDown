@@ -95,7 +95,7 @@ function givefulltags(cardid) {
 
 var taggroups = [
     {name:"default",collection:[],tagcol:"#2fa"},
-    {name:"nationalities",collection:[],tagcol:"#f72"},
+    {name:"nationalities",collection:["american","european","albanian","yugoslavic","kosovar","hungarian","romanian",'roma',"greek"],tagcol:"#f72"},
     {name:"phenotype",collection:[],tagcol:"#724"},
     {name:"franchise",collection:[],tagcol:"#2bf"},
 ]
