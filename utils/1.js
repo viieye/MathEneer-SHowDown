@@ -3,6 +3,11 @@ var knowntags = ['empty_tag',]
 var datasort = 1
 var sorts = 0
 var neodata = []
+
+//temp thing so the chars could be added normally
+for (let i = 0; i < data2.length; i++) {
+    data.push(data2[i])
+}
 for (let i = 0; i < data.length; i++) {
     // let blackist = ["joshua","saba"]
     // let blackist = ["eno"]

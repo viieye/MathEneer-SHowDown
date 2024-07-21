@@ -112,7 +112,7 @@ function selectcard(cardid) {
     for (let i = 0; i < data[cardid].cardimglink.length; i++) {
         toxt+='<img alt="404" onclick="lookatimg('
         toxt+=cardid+","+i
-        toxt+=')" src="../../utils/cards/_unsorted/'
+        toxt+=')" src="'
         toxt+=data[cardid].cardimglink[i]
         toxt+='" width="'
         toxt+=Math.floor(100/data[cardid].cardimglink.length)
@@ -126,14 +126,6 @@ function selectcard(cardid) {
         
         toxt+=`<input type="text" id="imglinks" onclick="document.getElementById('imagehelp').style.display='flex';">`
         toxt+='<div class="list" id="imagehelp">'
-        assignimges()
-        for (let i = 0; i < unassignedimgs.length; i++) {
-            toxt+=`<div class="item butt" onclick="document.getElementById('imglinks').value+='`
-            toxt+=unassignedimgs[i]
-            toxt+=`'">`
-            toxt+=unassignedimgs[i]
-            toxt+='</div>'
-        }
         toxt+='</div>'
         toxt+=`<div onclick="submitimglinks(document.getElementById('imglinks').value,`
         toxt+=cardid
@@ -274,7 +266,7 @@ function vizcard(cardid) {
     toxt+='<div class="smallcard butt" onclick="selectcard('+cardid
     toxt+=')"><div class="images">'
     for (let i = 0; i < data[cardid].cardimglink.length; i++) {
-        toxt+='<div class="onecard" style="background-image: url(../../utils/cards/_unsorted/'
+        toxt+='<div class="onecard" style="background-image: url('
         toxt+=data[cardid].cardimglink[i]
         toxt+=');width: '
         toxt+=Math.floor(100/data[cardid].cardimglink.length)
@@ -647,22 +639,6 @@ function submittags(stringus,cardid) {
     data[cardid].tags=stringus.split(",")
     document.getElementById('tagshelp').style.display="none";
     selectcard(cardid)
-}
-
-function assignimges() {
-    let neounissigned = []
-    for (let i = 0; i < archeounissigned.length; i++) {
-        let unassigned = 1
-        for (let j = 0; j < data.length; j++) {
-            if (isin(archeounissigned[i],data[j].cardimglink)) {
-                unassigned=0
-            }
-        }
-        if (unassigned==1) {
-            neounissigned.push(archeounissigned[i])
-        }
-    }
-    unassignedimgs=neounissigned
 }
 
 function reloadtags() {
