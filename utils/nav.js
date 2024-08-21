@@ -2,7 +2,7 @@ var wikimode=0
 var selchar=-1
 // var filter="stat/rate/wavrg"
 // var filter="stat/month/this"
-var filter="stat/noimage"
+var filter="stat/image"
 
 var classDearreyer = [0,"support",2,"uncommon",4,"rare",6,7,"epic",9,"legendary"]
 var classes = [1,3,5,8,10]
@@ -449,7 +449,7 @@ function makerProfile(makername) {
 
     let imghalf = document.createElement("img")
     imghalf.alt = "404"
-    imghalf.src = "../../utils/extra/regis_users/" + displayimage
+    imghalf.src = "img/extra/regis_users/" + displayimage
     imghalf.classList.add("half")
 
     half1.appendChild(imghalf)
@@ -532,7 +532,7 @@ function makerProfile(makername) {
                 let images2 = document.createElement("div")
                 images2.classList.add("rankcard")
                 // console.log(rankid);
-                images2.style.backgroundImage = "url(../../utils/img/extra/ranks/" + rankdata[rankid].imgName + ")"
+                images2.style.backgroundImage = "url(img/extra/ranks/" + rankdata[rankid].imgName + ")"
                 images2.style.width = "100%"
                 images1.appendChild(images2)
                 rankkard.appendChild(images1)

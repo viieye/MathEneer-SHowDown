@@ -14,7 +14,7 @@ var data = [
     desc:'desc',
     month:1,
     ratings:[],
-    cardimglink:["https://flic.kr/s/aHBqjBApr5https://www.flickr.com/photos/201089429@N04/53868232738/in/album-72177720318940202/"],
+    cardimglink:["https://drive.google.com/thumbnail?id=12IeB0S1ofQKeh5M6Jo9K7cL3ScwmXDmY"],
     thumbnail_link:"",
 },   
 {

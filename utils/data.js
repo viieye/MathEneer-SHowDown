@@ -336,4 +336,7 @@ var data2 = [
     {name:'zilla',bias:'3',klas:8,maker:'viie',fulltags:[],tags:['masculine_gender','sauroid','french','smart',],attacks:[],actions:[],passives:[],desc:'desc',month:1,ratings:[],cardimglink:[],},
     {name:'Zuko the Prince of Fire',bias:'3',klas:8,maker:'gogy',fulltags:[],tags:['human','avatar_franchise','masculine_gender',],attacks:[],actions:[],passives:[],desc:'desc',month:8,ratings:[[6,6,8],[6,7,10],[7,7,8],],cardimglink:[],},
     {name:'ნახევარქათამა',bias:'3',klas:10,maker:'viie',fulltags:[],tags:['masculine_gender','avian','humanoid','ploretariy',],attacks:[],actions:[],passives:[],desc:'desc',month:1,ratings:[],cardimglink:[],},
+    {name:'BIlal olatunji',bias:'4',klas:5,maker:'amadeo',fulltags:[],tags:['empty_tag',],attacks:[],actions:[],passives:[],desc:'desc',month:10,ratings:[[6,8,8],[8,8,9],[8,8,10],[8,8,9]],cardimglink:[],},
+    {name:'Ronald Reagan',bias:'4',klas:10,maker:'joshua',fulltags:[],tags:['empty_tag',],attacks:[],actions:[],passives:[],desc:'desc',month:10,ratings:[[10,9,10],[10,8,10],[10,8,9],[10,7,10],[10,9,10],[10,9,10],[10,10,10]],cardimglink:[],},
+    {name:'drize_gambler',bias:'4',klas:10,maker:'eno',fulltags:[],tags:['empty_tag',],attacks:[],actions:[],passives:[],desc:'desc',month:10,ratings:[[9,7,9],[10,9,10],[9,8,10]],cardimglink:[],},
     ]

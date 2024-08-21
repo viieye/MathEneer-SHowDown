@@ -12,6 +12,6 @@
     desc:'desc',
     month:1,
     ratings:[],
-    cardimglink:["https://drive.google.com/file/d/1JOp3L5l1M93ptN-eY3tD2jYdK9StHosU/view?usp=drive_link"],
+    cardimglink:["https://drive.google.com/thumbnail?id=12IeB0S1ofQKeh5M6Jo9K7cL3ScwmXDmY"],
     thumbnail_link:"",
 },
