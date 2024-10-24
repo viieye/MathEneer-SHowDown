@@ -196,6 +196,19 @@ function rounditerate() {
 
     //convert the effected places in textarea
 
+    ///some code here///
+
+
+    ///gameplay
+    for (let i = 0; i < playernum.length; i++) {
+        request_round_query(i)
+    }
+
+    //automated team AI
+    var autoteams = []
+    for (let i = 0; i < autoteams.length; i++) {
+        request_autoteam_action()
+    }
 
     refreshboard()
     document.getElementById('roundnum').innerText = round
@@ -463,4 +476,13 @@ function capparea(areaid) {
             cappedTiles.push([areaid,i])
         }
     }
+}
+
+function request_round_query(playerid) {
+    playermoves = 2
+    do {
+        //query for a player action
+
+        prompt("Please enter available attack", "Harry Potter");
+    } while (playernum>0);
 }

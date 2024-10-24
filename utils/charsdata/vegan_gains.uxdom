@@ -1,0 +1,37 @@
+{
+charcode:"vegan_gains",
+name:"Aerith Gainsborrough",
+bias:3,
+klas:1,
+maker:"eno",
+tags:["empty_tag"],
+fulltags:[],
+actions:[
+	{action_title:"fury brand",
+	action_probabilty:10,dont_duplicate_on_max_roll:true,action_cooldown:5,
+	action_tags:["apply_effect","normal",],action_effects:[
+		{"apply_effect":"special action cooldown add -2","inherit_action_tags":true,"action_range":3},]},
+	{action_title:"seal evil",
+	action_probabilty:13,dont_duplicate_on_max_roll:true,action_cooldown:6,
+	action_tags:["effect_damage","normal",],action_effects:[
+		{"apply_effect":"3 immobility","inherit_action_tags":true,"action_range":4},]},
+	{action_title:"healing wind",
+	action_probabilty:0,dont_duplicate_on_max_roll:true,action_cooldown:5,
+	action_tags:["simple_heal","normal","AOE_effect",],action_effects:[
+		{"heal_to_target":"35","inherit_action_tags":true,"action_range":25,"action_scope":["team"]},]},
+	{action_title:"livestream xd",
+	action_probabilty:0,dont_duplicate_on_max_roll:true,action_cooldown:5,
+	action_tags:["simple_heal","special","AOE_effect",],action_effects:[
+		{"heal_to_target":"80","inherit_action_tags":true,"action_range":25,"action_scope":["team"]},]},
+],
+passives:[
+	{initial_health:250,max_health:250,
+	initial_stagger:100,max_stagger:100,
+	object_sprite:""},
+],
+desc:"desc",
+month:8,
+ratings:[[8,7,6],[7,7,8],[7,8,6],[8,7,9],[7,7,7],],
+cardimglink:["https://drive.google.com/thumbnail?id=1wOp-wozR9seFJZtvJAu1eVjrfkUABHqY"],
+thumbnail_link:"",
+},

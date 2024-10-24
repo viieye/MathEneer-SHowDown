@@ -51,6 +51,13 @@ function arasumval(array) {
     }
     return sum
 }
+function arasumvaln(array,lengtho) {
+    let sum = 0
+    for (let i = 0; i < lengtho; i++) {
+        sum+=array[i]*1
+    }
+    return sum
+}
 function araransort(array) {
     let arag = []
     for (let i = 0; i < array.length; i++) {

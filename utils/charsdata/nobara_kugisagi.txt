@@ -1,0 +1,18 @@
+{
+    charcode:"nobara_kugisagi",
+    name:"Nobara Kugisagi",
+    bias:"3",
+    klas:"5",
+    maker:"eno",
+    fulltags:[],
+    tags:["empty_tag"],
+    actions:[
+    ],
+    passives:[
+    ],
+    desc:"desc",
+    month:12,
+    ratings:[],
+    cardimglink:[],
+    thumbnail_link:"",
+    },

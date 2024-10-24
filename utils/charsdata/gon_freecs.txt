@@ -1,0 +1,18 @@
+{
+charcode:"gon_freecs",
+name:"Gon freecs",
+bias:"3",
+klas:"5",
+maker:"eno",
+tags:["empty_tag"],
+fulltags:[],
+actions:[
+],
+passives:[
+],
+desc:"desc",
+month:11,
+ratings:[],
+cardimglink:[],
+thumbnail_link:"",
+},

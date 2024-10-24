@@ -1,0 +1,18 @@
+{
+    charcode:"captain_jun",
+    name:"Captain Jun",
+    bias:"3",
+    klas:"8",
+    maker:"eno",
+    fulltags:[],
+    tags:["empty_tag"],
+    actions:[
+    ],
+    passives:[
+    ],
+    desc:"desc",
+    month:14,
+    ratings:[],
+    cardimglink:[],
+    thumbnail_link:"",
+    },

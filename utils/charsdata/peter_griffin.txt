@@ -1,0 +1,18 @@
+{
+charcode:"peter_griffin",
+name:"Peter Griffin",
+bias:"3",
+klas:"10",
+maker:"gogy",
+tags:['masculine_gender','american','human','western_anim_origins',],
+fulltags:[],
+actions:[
+],
+passives:[
+],
+desc:"desc",
+month:11,
+ratings:[],
+cardimglink:[],
+thumbnail_link:"",
+},

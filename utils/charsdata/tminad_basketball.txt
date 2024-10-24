@@ -1,0 +1,18 @@
+{
+    charcode:"tminad_basketball",
+    name:"Tminad basketball",
+    bias:"3",
+    klas:"5",
+    maker:"amadeo",
+    fulltags:[],
+    tags:["empty_tag"],
+    actions:[
+    ],
+    passives:[
+    ],
+    desc:"desc",
+    month:13,
+    ratings:[],
+    cardimglink:[],
+    thumbnail_link:"",
+    },

@@ -1,0 +1,32 @@
+{
+    charcode:"34n44",
+    name:'34th and 44th divisions',
+    bias:'3',
+    klas:3,
+    maker:'gogy',
+    fulltags:[],
+    tags:['masculine_gender','chinese','group-chacracter','human','warrior','lightskin',],
+    actions:[
+        {action_title:"chinese strength",
+        action_probabilty:19,dont_duplicate_on_max_roll:true,action_cooldown:0,
+        action_tags:["simple_damage","normal"],action_effects:[
+            {deal_damage_to_target:1,inherit_action_tags:true,action_range:4}
+        ]},
+        {action_title:"chinese strength+",
+        action_probabilty:19,dont_duplicate_on_max_roll:true,action_cooldown:50,
+        action_tags:["simple_damage","special"],action_effects:[
+            {deal_damage_to_target:2,inherit_action_tags:true,action_range:4}
+        ]},
+    ],
+    passives:[
+        {initial_health:1,max_health:1,
+        initial_stagger:1,max_stagger:1,
+        object_sprite:""},
+
+    ],
+    desc:'desc',
+    month:1,
+    ratings:[],
+    cardimglink:["https://drive.google.com/thumbnail?id=1JOp3L5l1M93ptN-eY3tD2jYdK9StHosU"],
+    thumbnail_link:"",
+},

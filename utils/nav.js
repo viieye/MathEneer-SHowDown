@@ -1,8 +1,8 @@
 var wikimode=0
 var selchar=-1
 // var filter="stat/rate/wavrg"
-// var filter="stat/month/this"
-var filter="stat/image"
+var filter="stat/month/this"
+// var filter="stat/image"
 
 var classDearreyer = [0,"support",2,"uncommon",4,"rare",6,7,"epic",9,"legendary"]
 var classes = [1,3,5,8,10]
@@ -75,7 +75,7 @@ function cardgetratings(cardid,approx) {
     if (leng>0) {
         let totals = [0,0,0,0]
         for (let i = 0; i < leng; i++) {
-            totals[0]+=arasumval(data[cardid].ratings[i])
+            totals[0]+=arasumvaln(data[cardid].ratings[i],3)
             totals[1]+=data[cardid].ratings[i][0]
             totals[2]+=data[cardid].ratings[i][1]
             totals[3]+=data[cardid].ratings[i][2]
@@ -87,7 +87,7 @@ function cardgetratings(cardid,approx) {
         //wavrg
         let totalsplus = [33,11,11,11]
         for (let i = 0; i < leng; i++) {
-            totalsplus[0]+=arasumval(data[cardid].ratings[i])
+            totalsplus[0]+=arasumvaln(data[cardid].ratings[i],3)
             totalsplus[1]+=data[cardid].ratings[i][0]
             totalsplus[2]+=data[cardid].ratings[i][1]
             totalsplus[3]+=data[cardid].ratings[i][2]
@@ -100,6 +100,7 @@ function cardgetratings(cardid,approx) {
     }
     return [[0,0,0,0],[0,0,0,0],[0,0,0,0]]
 }
+
 
 function selectcard(cardid) {
     selchar=cardid
@@ -158,7 +159,10 @@ function selectcard(cardid) {
 
     toxt+=' class, id:'+ cardid
     toxt+=', month:'+ data[cardid].month
-    toxt+='</div>'
+    toxt+=', charcode:'+ data[cardid].charcode
+    
+
+    
 
     toxt+='<div class="text">'
     if (wikimode==1) {
@@ -221,6 +225,11 @@ function selectcard(cardid) {
         toxt+='</div>'
     }
 
+    toxt+='<div class="butt" onclick="downloadChardata(`'
+    toxt+=cardid
+    toxt+='`)">'
+    toxt+='download character</div>'
+
     
     let leng = data[cardid].ratings.length
     if (leng>0) {
@@ -249,14 +258,92 @@ function selectcard(cardid) {
         toxt+='</div>'
     }
 
+        toxt+='</div>'
+    
+
     toxt+='</div>'
-    toxt+='<div class="half"><div class="text">'
-    for (let i = 0; i < data[cardid].attacks.length; i++) {
-        toxt+='<div class="item">'
-        toxt+=data[cardid].attacks[i]
+    toxt+='<div class="half">'
+    for (let i = 0; i < data[cardid].actions.length; i++) {
+        toxt+='<div class="ricegum">'
+
+        toxt+='<div class="title">'
+        let defaction = 1
+        if (isin("normal",data[cardid].actions[i].action_tags)) {
+            toxt+="normal action"
+            defaction = 0
+        }
+        if (isin("special",data[cardid].actions[i].action_tags)) {
+            toxt+="special action"
+            defaction = 0
+        }
+        if (defaction) {
+            toxt+="action"
+        }
+        toxt+='</div>'
+
+        toxt+='<div class="text">'
+        toxt+=data[cardid].actions[i].action_title
+        toxt+='</div>'
+
+
+        toxt+='<div class="text">'
+        for (let ind = 0; ind < data[cardid].actions[i].action_effects.length; ind++) {
+            let actiontags = []
+            if (!isNaN(data[cardid].actions[i].action_effects[ind].action_effect_tags)) {
+                for (let ino = 0; ino < data[cardid].actions[i].action_effects[ind].action_effect_tags.length; ino++) {
+                    actiontags.push(data[cardid].actions[i].action_effects[ind].action_effect_tags[ino])
+                }
+            }
+            if (data[cardid].actions[i].action_effects[ind].inherit_action_tags) {
+                for (let ino = 0; ino < data[cardid].actions[i].action_tags.length; ino++) {
+                    actiontags.push(data[cardid].actions[i].action_tags[ino])
+                }
+            }
+            toxt+='<div class="item">'
+
+            if (isin("simple_damage",actiontags)) {
+                toxt+='on net>'
+                toxt+=data[cardid].actions[i].action_probabilty
+                toxt+=' deal '
+                toxt+=data[cardid].actions[i].action_effects[ind].deal_damage_to_target
+                toxt+='dmg to target in '
+                toxt+=data[cardid].actions[i].action_effects[ind].action_range
+                toxt+=' tile range'
+            }
+
+            if (isin("simple_heal",actiontags)) {
+                toxt+='on net>'
+                toxt+=data[cardid].actions[i].action_probabilty
+                toxt+=' heal '
+                toxt+=data[cardid].actions[i].action_effects[ind].heal_to_target
+                toxt+='hp to target in '
+                toxt+=data[cardid].actions[i].action_effects[ind].action_range
+                toxt+=' tile range'
+            }
+
+            if (isin("apply_effect",actiontags)||isin("effect_damage",actiontags)) {
+                toxt+='on net>'
+                toxt+=data[cardid].actions[i].action_probabilty
+                toxt+=' apply effect: ['
+                toxt+=data[cardid].actions[i].action_effects[ind].apply_effect
+                toxt+='] to target in '
+                toxt+=data[cardid].actions[i].action_effects[ind].action_range
+                toxt+=' tile range'
+            }
+
+            toxt+='</div>'
+        }
+        toxt+='</div>'
+        
+        toxt+='<div class="text">'
+        toxt+='action_cooldown:'
+        toxt+=data[cardid].actions[i].action_cooldown
+        toxt+='</div>'
+
+
         toxt+='</div>'
     }
-    toxt+='</div></div>'
+    toxt+='</div>'
     document.getElementById('content').innerHTML=toxt
 }
 
@@ -305,6 +392,11 @@ function statmode() {
     toxt+='<div class="butt">month</div>'
     toxt+='<div class="butt">'
     toxt+=giveunix(Date.now()/1000,defunix,monUnit)
+    toxt+='/'
+    toxt+=giveunix(Date.now()/1000,defunix+giveunix(Date.now()/1000,defunix,monUnit)*monUnit,86400)
+    toxt+='</div>'
+    toxt+='<div class="butt">'
+    toxt+=giveunix(defunix+(giveunix(Date.now()/1000,defunix,monUnit)+1)*monUnit,Date.now()/1000,86400)
     toxt+='</div>'
     
     toxt+='</div>'
@@ -816,6 +908,7 @@ function rolledcard(cardid) {
 
 var newchar = ['el',1,'character_'+data.length]
 
+var tuext = ""
 function newcardmenu() {
     let toxt = ""
     
@@ -874,7 +967,7 @@ function newcardmenu() {
 
     
     toxt+='<div class="item">class</div>'
-    toxt+='<div class="list">'//openlist for class
+    toxt+='<div class="list" style="min-height: 125px;">'//openlist for class
     
     for (let i = 0; i < classes.length; i++) {
         if (classes[i]==newchar[1]) {
@@ -889,7 +982,32 @@ function newcardmenu() {
     }
     toxt+='</div>'// closelist for class
 
-    toxt+='<div class="butt" onclick="sunbmitchar()">'
+    toxt+='<div class="item">'
+    toxt+='<div class="item">'
+
+    ///charcode.js text
+    tuext=""
+    tuext+='{\ncharcode:"'
+    tuext+=newchar[2].toLowerCase().replace(" ", "_");
+    tuext+='",\nname:"'
+    tuext+=newchar[2];
+    tuext+='",\nbias:"3",\nklas:"'
+    tuext+=newchar[1];
+    tuext+='",\nmaker:"'
+    tuext+=newchar[0];
+    tuext+='",\ntags:["empty_tag"],\nfulltags:[],\nactions:[\n],\npassives:[\n],\ndesc:"desc",\nmonth:'
+    tuext+=giveunix(Date.now()/1000,defunix,monUnit)
+    tuext+=',\nratings:[],\ncardimglink:[],\nthumbnail_link:"",\n},'
+    
+    
+    
+    toxt+='</div>'
+    toxt+='</div>'
+
+    
+    toxt+='<div class="butt" onclick="download(tuext,`'
+    toxt+=newchar[2].toLowerCase().replace(" ", "_");
+    toxt+='`,`js`)">'
     toxt+='submit character</div>'
 
 
@@ -901,8 +1019,9 @@ function newcardmenu() {
 }
 
 function sunbmitchar() {
-    data.push({name:newchar[2],bias:4,klas: newchar[1],maker: newchar[0],tags:['empty_tag'],desc:'desc',month:giveunix(Date.now()/1000,defunix,monUnit),ratings:[],fulltags:[],attacks:[],actions:[],passives:[],cardimglink:[]})
-    showallcards()
+
+    // {name:newchar[2],bias:4,klas: newchar[1],maker: newchar[0],tags:['empty_tag'],desc:'desc',month:giveunix(Date.now()/1000,defunix,monUnit),ratings:[],fulltags:[],attacks:[],actions:[],passives:[],cardimglink:[]}
+    // showallcards()
 }
 
 function giveunix(endtime,submitunix,unit) {

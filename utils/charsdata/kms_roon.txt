@@ -1,0 +1,18 @@
+{
+    charcode:"kms_roon",
+    name:"KMS Roon",
+    bias:"3",
+    klas:"10",
+    maker:"saba",
+    fulltags:[],
+    tags:['feminine_gender','azure_lane_franchise','game_origins','anime_origins',],
+    actions:[
+    ],
+    passives:[
+    ],
+    desc:"desc",
+    month:11,
+    ratings:[],
+    cardimglink:[],
+    thumbnail_link:"",
+    },

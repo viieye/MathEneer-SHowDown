@@ -1,0 +1,18 @@
+{
+    charcode:"iosef_stalin",
+    name:'Stalin',
+    bias:'3',
+    klas:5,
+    maker:'viie',
+    fulltags:[],
+    tags:["georgian","human","russian","ruler","communist","authoritarian"],
+    actions:[
+    ],
+    passives:[
+    ],
+    desc:'desc',
+    month:1,
+    ratings:[],
+    cardimglink:[],
+    thumbnail_link:"",
+},

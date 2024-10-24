@@ -1,0 +1,18 @@
+{
+    charcode:"elegast_ruina",
+    name:"Elegast ruina",
+    bias:"3",
+    klas:"8",
+    maker:"eno",
+    fulltags:[],
+    tags:["empty_tag"],
+    actions:[
+    ],
+    passives:[
+    ],
+    desc:"desc",
+    month:13,
+    ratings:[],
+    cardimglink:[],
+    thumbnail_link:"",
+    },

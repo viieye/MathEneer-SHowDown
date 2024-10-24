@@ -1,0 +1,18 @@
+{
+charcode:"joshua_templar",
+name:"Joshua templar",
+bias:"3",
+klas:"10",
+maker:"eno",
+fulltags:[],
+tags:["empty_tag"],
+actions:[
+],
+passives:[
+],
+desc:"desc",
+month:13,
+ratings:[],
+cardimglink:[],
+thumbnail_link:"",
+},

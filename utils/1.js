@@ -30,6 +30,24 @@ if (datasort==1) {
         }
     }
 }
+///less statting from the very end
+for (let i = 0; i < ratings.length; i++) {
+    let orphant=0
+    let haverated = []
+    for (let j = 0; j < neodata.length; j++) {
+        //if charcode matches the ratings
+        if (neodata[j].name==ratings[ratings.length-i-1][0] || neodata[j].charcode==ratings[ratings.length-i-1][0]) {
+            //will not happen if rating was already cast
+            neodata[j].ratings.push(ratings[ratings.length-i-1][1])
+            orphant++
+        }
+    }
+    if (orphant<1) {
+        orphantratings.push(ratings[ratings.length-i-1][0])
+    }
+}
+console.log(orphantratings);
+
 data=neodata
 
 function vizdata(expoert) {
@@ -337,4 +355,107 @@ function araglen(num,numd) {
         arrag.push((numd==1)?i:0)
     }
     return arrag
+}
+
+function listnamesbyclass(clas) {
+    let toxt = ""
+    for (let i = 0; i < data.length; i++) {
+        if (data[i].klas==clas) {
+            toxt+=data[i].name+"\n"
+        }
+    }
+    return toxt
+}
+//less\ncode i stole from stackoverflow.com///
+function download(data, filename, type) {
+    var file = new Blob([data], {type: type});
+    if (window.navigator.msSaveOrOpenBlob) // IE10+
+        window.navigator.msSaveOrOpenBlob(file, filename);
+    else { // Others
+        var a = document.createElement("a"),
+                url = URL.createObjectURL(file);
+        a.href = url;
+        a.download = filename;
+        document.body.appendChild(a);
+        a.click();
+        setTimeout(function() {
+            document.body.removeChild(a);
+            window.URL.revokeObjectURL(url);  
+        }, 0); 
+    }
+}
+
+
+function downloadChardata(charID) {
+    let name = data[charID].name
+    let chrcd = data[charID].charcode
+    if (chrcd === undefined) {
+        chrcd=name.toLowerCase().replace(" ", "_");
+    }
+    
+    ///charcode.js text
+    let toxt = ""
+    toxt+='{\ncharcode:"'+chrcd
+    toxt+='",\nname:"'+name
+    toxt+='",\nbias:'+data[charID].bias+',\nklas:'+data[charID].klas
+    toxt+=',\nmaker:"'+data[charID].maker
+    toxt+='",\ntags:["empty_tag"],\nfulltags:[],\nactions:['
+    for (let i = 0; i < data[charID].actions.length; i++) {
+        toxt+='\n\t{action_title:"'+data[charID].actions[i].action_title+'",'
+
+        toxt+='\n\taction_probabilty:'+data[charID].actions[i].action_probabilty+','
+        toxt+='dont_duplicate_on_max_roll:'+data[charID].actions[i].dont_duplicate_on_max_roll+','
+        toxt+='action_cooldown:'+data[charID].actions[i].action_cooldown+','
+
+        toxt+='\n\taction_tags:['
+        for (let ind = 0; ind < data[charID].actions[i].action_tags.length; ind++) {
+            toxt+= '"'+ data[charID].actions[i].action_tags[ind] + '",';
+            
+        }
+        toxt+='],'
+        toxt+='action_effects:['
+        for (let ind = 0; ind < data[charID].actions[i].action_effects.length; ind++) {
+            toxt+= '\n\t\t'+ JSON.stringify(data[charID].actions[i].action_effects[ind]) + ',';
+            
+        }
+        toxt+=']},'
+    }
+    toxt+='\n],\npassives:['
+
+    if (data[charID].passives.length>0) {
+        toxt+='\n\t{initial_health:'+data[charID].passives[0].initial_health+','
+        toxt+='max_health:'+data[charID].passives[0].max_health+','
+
+        toxt+='\n\tinitial_stagger:'+data[charID].passives[0].initial_stagger+','
+        toxt+='max_stagger:'+data[charID].passives[0].max_stagger+','
+
+        toxt+='\n\tobject_sprite:""},'
+    } else {
+        toxt+='\n\t{initial_health:'+data[charID].klas*50+','
+        toxt+='max_health:'+data[charID].klas*50+','
+
+        toxt+='\n\tinitial_stagger:'+100+','
+        toxt+='max_stagger:'+100+','
+
+        toxt+='\n\tobject_sprite:""},'
+    }
+
+    for (let i = 1; i < data[charID].passives.length; i++) {
+    }
+    toxt+='\n],\ndesc:"desc",\nmonth:'+data[charID].month
+    toxt+=',\nratings:['
+    for (let i = 0; i < data[charID].ratings.length; i++) {
+        toxt+= '['+ data[charID].ratings[i][0]+','+ data[charID].ratings[i][1]+','+ data[charID].ratings[i][2]
+        if (!data[charID].ratings[i][3]===undefined) {
+            toxt+= ',"'+ data[charID].ratings[i][3]+'","'+data[charID].ratings[i][4]+'"'
+        }
+        toxt+= '],'
+    }
+    toxt+='],\ncardimglink:['
+    for (let i = 0; i < data[charID].cardimglink.length; i++) {
+        toxt+='"'+data[charID].cardimglink[i]+'"'
+    }
+    toxt+='],\nthumbnail_link:"",\n},'
+
+    download(toxt, chrcd+".UXDOM", 'text/plain')
 }

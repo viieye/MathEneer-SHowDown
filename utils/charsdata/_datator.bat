@@ -16,14 +16,12 @@ echo %beginningText% > %outputFile%
 echo. >> %outputFile%
 
 
-rem Loop through all js files in the current directory
-for %%f in (*.js) do (
-    rem Read the content of each js file and append it to the output file
-    if not "%%f"=="%outputFile%" (
-        echo Combining %%f
-        type "%%f" >> %outputFile%
-        echo. >> %outputFile%  
-    )
+rem Loop through all txt files in the current directory
+for %%f in (*.txt) do (
+    rem Read the content of each txt file and append it to the output file
+    echo Combining %%f
+    type "%%f" >> %outputFile%
+    echo. >> %outputFile%  
 )
 
 rem Add the ending text to the output file
