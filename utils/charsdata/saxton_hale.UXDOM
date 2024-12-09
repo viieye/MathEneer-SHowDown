@@ -1,0 +1,21 @@
+{
+charcode:"saxton_hale",
+name:"Saxton Hale",
+bias:3,
+klas:10,
+maker:"amadeo",
+tags:["chadlike","human","australian","tf2_frenchise","masculine_gender",],
+fulltags:[],
+actions:[
+],
+passives:[
+	{initial_health:500,max_health:500,
+	initial_stagger:100,max_stagger:100,
+	object_sprite:""},
+],
+desc:"desc",
+month:11,
+ratings:[],
+cardimglink:["saxton1_1.png",],
+thumbnail_link:"",
+},

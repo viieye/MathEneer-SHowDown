@@ -1,0 +1,21 @@
+{
+charcode:"gin_ichimaru",
+name:"Gin Ichimaru",
+bias:3,
+klas:10,
+maker:"joshua",
+tags:["empty_tag"],
+fulltags:[],
+actions:[
+],
+passives:[
+	{initial_health:500,max_health:500,
+	initial_stagger:100,max_stagger:100,
+	object_sprite:""},
+],
+desc:"desc",
+month:11,
+ratings:[],
+cardimglink:["gin_ichimaru1-0.png","gin_ichimaru2-0.png","gin_ichimaru3-0.png",],
+thumbnail_link:"",
+},

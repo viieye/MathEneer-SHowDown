@@ -3,12 +3,13 @@ var selchar=-1
 // var filter="stat/rate/wavrg"
 var filter="stat/month/this"
 // var filter="stat/image"
+// var filter="stat/noimg"
 
 var classDearreyer = [0,"support",2,"uncommon",4,"rare",6,7,"epic",9,"legendary"]
 var classes = [1,3,5,8,10]
 
 
-var monUnit = 2550000
+var monUnit = 2551443
 var defunix = 1693513380
 //aug 31 2023 the birth: 1693513380
 
@@ -25,6 +26,25 @@ function showallcards() {
                 let rating2 = cardgetratings(redata[i],10)[avrgoris][0]
                 // console.log(rating1,rating2);
                 if (rating1<rating2) {
+                    let temp = redata[i-1]
+                    redata[i-1]=redata[i]
+                    redata[i]=temp
+                }
+            }
+        }        
+    }
+    if (isin(getfilt4(),['chronological',"antichrono"])) {
+
+        //sorts by month
+        for (let j = 0; j < redata.length; j++) {
+            for (let i = 1; i < redata.length; i++) {
+                let rating1 = data[redata[i-1]].month
+                let rating2 = data[redata[i]  ].month
+                // console.log(rating1,rating2);
+                let ineqans = true
+                ineqans = rating1<rating2
+                if (getfilt4()=="antichrono") {ineqans = !ineqans}
+                if (ineqans) {
                     let temp = redata[i-1]
                     redata[i-1]=redata[i]
                     redata[i]=temp
@@ -114,23 +134,35 @@ function selectcard(cardid) {
         toxt+='<img alt="404" onclick="lookatimg('
         toxt+=cardid+","+i
         toxt+=')" src="'
-        toxt+=data[cardid].cardimglink[i]
+        toxt+=linker+'images/mainclass_cards/'+data[cardid].cardimglink[i]
         toxt+='" width="'
         toxt+=Math.floor(100/data[cardid].cardimglink.length)
         toxt+='%">'
     }
     toxt+='</div>'
     if (wikimode==0) {
-        toxt+=data[cardid].cardimglink
+        toxt+=linker+'images/mainclass_cards/'+data[cardid].cardimglink
+        
         
         toxt+='<div class="ricegum">'
         
         toxt+=`<input type="text" id="imglinks" onclick="document.getElementById('imagehelp').style.display='flex';">`
         toxt+='<div class="list" id="imagehelp">'
+        assignimges()
+        for (let i = 0; i < unassignedimgs.length; i++) {
+            toxt+=`<div class="item butt" onclick="document.getElementById('imglinks').value+='`
+            toxt+=unassignedimgs[i]
+            toxt+=`'">`
+            toxt+=unassignedimgs[i]
+            toxt+='</div>'
+        }
         toxt+='</div>'
+        toxt+='<div class="list">'
+        toxt+=`<div onclick="document.getElementById('imglinks').value+=','" class="butt item">+,</div>`
         toxt+=`<div onclick="submitimglinks(document.getElementById('imglinks').value,`
         toxt+=cardid
-        toxt+=')" class="butt">submit</div>'
+        toxt+=')" class="butt item">submit</div>'
+        toxt+='</div>'
         toxt+='</div>'
     }
     
@@ -249,11 +281,62 @@ function selectcard(cardid) {
         toxt+='average+ score:'+ wavrjs[0]
         toxt+=' ('+ wavrjs[1]+'|'+ wavrjs[2]+'|'+ wavrjs[3]+')'
         toxt+='</div>'
-        toxt+='<div class="text">'
+        toxt+='<div class="list fullcard">'
         for (let i = 0; i < data[cardid].ratings.length; i++) {
-            toxt+='<div class="item">'
-            toxt+=data[cardid].ratings[i]
-            toxt+='</div>'
+            if (data[cardid].ratings[i].length<4) {
+                toxt+='<div class="item">'
+                toxt+=data[cardid].ratings[i]
+                // toxt+=array3todesbalkre(data[cardid].ratings[i])
+                toxt+='</div>'
+            } else {
+                let mkrdt = ""
+                for (let ind = 0; ind < makerdata.length; ind++) {
+                    if (makerdata[ind].username==data[cardid].ratings[i][3]) {
+                        console.log(makerdata[ind].username,data[cardid].ratings[i][3],ind);
+                        
+                        mkrdt=ind
+                    }
+                }
+                toxt+=`<div class="comment fullcard list butt" onclick="makerProfile('`
+                toxt+=data[cardid].ratings[i][3]
+                toxt+=`')">`
+
+                //cpment head
+                toxt+='<div class="ricegum">'
+                    toxt+='<img alt="404" height="50" src="'+linker+'images/extra/regis_users/'
+                if (mkrdt!=="") {
+                    toxt+=makerdata[mkrdt].pfp+'">'
+                    toxt+='<div class="ricegum">'
+                    toxt+=makerdata[mkrdt].displayname+"; @"+makerdata[mkrdt].username
+                } else {
+                    toxt+='logos_mes.png">'
+                    toxt+='<div class="ricegum">'
+                    toxt+="@"+data[cardid].ratings[i][3]
+                }
+                if (data[cardid].ratings[i][3]=="viie" && mkrdt==0) {
+                toxt+='<div class="item list">'+array3todesbalkre(data[cardid].ratings[i])+'</div>'
+                } else {
+                    toxt+='<div class="item list">'+data[cardid].ratings[i][0]
+                    toxt+=','+data[cardid].ratings[i][1]+','
+                    toxt+=data[cardid].ratings[i][2]+'</div>'
+                }
+                toxt+='</div>'
+
+
+                toxt+='</div>'
+
+                ///comment body
+                toxt+='<div class="text">'
+                let toxt2 = data[cardid].ratings[i][4].split("\n")
+                for (let ind = 0; ind < toxt2.length; ind++) {
+                    toxt+=toxt2[ind]+"<br>"
+                }
+
+                toxt+='</div>'
+
+
+                toxt+='</div>'
+            }
         }
         toxt+='</div>'
     }
@@ -263,6 +346,32 @@ function selectcard(cardid) {
 
     toxt+='</div>'
     toxt+='<div class="half">'
+    if (data[cardid].passives.length>0) {
+        toxt+='<div class="ricegum">'
+        toxt+='<div class="title">'
+        toxt+="top info"
+        toxt+='</div>'
+        toxt+='<div class="text">'
+        toxt+="stats"
+        toxt+='</div>'
+        
+        toxt+='<div class="text">'
+        toxt+='<div class="item">'
+        toxt+="health: "
+        toxt+=data[cardid].passives[0].initial_health
+        toxt+="/"
+        toxt+=data[cardid].passives[0].max_health
+        toxt+='</div>'
+        toxt+='<div class="item">'
+        toxt+="stagger: "
+        toxt+=data[cardid].passives[0].initial_stagger
+        toxt+="/"
+        toxt+=data[cardid].passives[0].max_stagger
+        toxt+='</div>'
+        toxt+='</div>'
+        
+        toxt+='</div>'
+    }
     for (let i = 0; i < data[cardid].actions.length; i++) {
         toxt+='<div class="ricegum">'
 
@@ -354,7 +463,15 @@ function vizcard(cardid) {
     toxt+=')"><div class="images">'
     for (let i = 0; i < data[cardid].cardimglink.length; i++) {
         toxt+='<div class="onecard" style="background-image: url('
-        toxt+=data[cardid].cardimglink[i]
+        if (data[cardid].thumbnail_link===undefined) {
+            toxt+=linker+'images/mainclass_cards/'+data[cardid].cardimglink[i]
+        } else {
+            if (data[cardid].thumbnail_link=="") {
+                toxt+=linker+'images/mainclass_cards/'+data[cardid].cardimglink[i]
+            } else {
+                toxt+=data[cardid].thumbnail_link
+            }
+        }
         toxt+=');width: '
         toxt+=Math.floor(100/data[cardid].cardimglink.length)
         toxt+='%">'
@@ -447,10 +564,11 @@ function makerProfile(makername) {
     
     let bestcards = {bestcard:-1,mostcard:-1,design:-1,balance:-1,creativity:-1,desvcard:-1,ddesign:-1,dbalance:-1,dcreativity:-1,}
     
+    ///what was even this for it was in the "if (bestcards.bestcard!=-1)" area replacing bestcards.bestcard 
     let statcheckedid = -1
     for (let i = 0; i < data.length; i++) {
         if (makername==data[i].maker) {
-            if (statcheckedid!=-1) {
+            if (bestcards.bestcard!=-1) {
                 if (cardgetratings(i,1000)[1][0]>cardgetratings(bestcards.bestcard,1000)[1][0]) {
                     bestcards.bestcard=i
                 }
@@ -541,7 +659,7 @@ function makerProfile(makername) {
 
     let imghalf = document.createElement("img")
     imghalf.alt = "404"
-    imghalf.src = "img/extra/regis_users/" + displayimage
+    imghalf.src = linker+"images/extra/regis_users/" + displayimage
     imghalf.classList.add("half")
 
     half1.appendChild(imghalf)
@@ -624,7 +742,7 @@ function makerProfile(makername) {
                 let images2 = document.createElement("div")
                 images2.classList.add("rankcard")
                 // console.log(rankid);
-                images2.style.backgroundImage = "url(img/extra/ranks/" + rankdata[rankid].imgName + ")"
+                images2.style.backgroundImage = "url("+linker+"images/extra/ranks/" + rankdata[rankid].imgName + ")"
                 images2.style.width = "100%"
                 images1.appendChild(images2)
                 rankkard.appendChild(images1)
@@ -685,7 +803,7 @@ function makerProfile(makername) {
             for (let ind = 0; ind < data[cardshow[i].id].cardimglink.length; ind++) {
                 let images2 = document.createElement("div")
                 images2.classList.add("onecard")
-                images2.style.backgroundImage = "url(../../utils/cards/_unsorted/" + data[cardshow[i].id].cardimglink[ind] + ")"
+                images2.style.backgroundImage = "url("+ linker +'images/mainclass_cards/' + data[cardshow[i].id].cardimglink[ind] + ")"
                 images2.style.width = "100%"
                 images1.appendChild(images2)
             }
@@ -750,7 +868,7 @@ function lookatimg(cardid,imgid) {
     toxt+='<div class="butt" onclick="selectcard('+cardid
     toxt+=')">back to card</div>'
 
-    toxt+='<img alt="404" src="../../utils/cards/_unsorted/'
+    toxt+='<img alt="404" src="'+linker+'images/mainclass_cards/'
     toxt+=data[cardid].cardimglink[imgid]
     toxt+='" width="100%">'
 
@@ -785,6 +903,9 @@ function checkfilt4(cardid) {
     }
     if (filtertype == 'image') {
         filterallow=(data[cardid].cardimglink.length>0)?1:0
+    }
+    if (isin(filtertype,['chronological','antichrono'])) {
+        filterallow=1
     }
     if (filtertype == 'noimage') {
         filterallow=(data[cardid].cardimglink.length==0||data[cardid].cardimglink[0]=='')?1:0
@@ -858,6 +979,12 @@ function getfilt4() {
                     }
                 }
             }
+            if (isin(filter.split("/")[1],['chrono',"age","chr"])) {
+                filtertype = 'chronological'
+            }
+            if (isin(filter.split("/")[1],['antichrono',"unage","achr"])) {
+                filtertype = 'antichrono'
+            }
         }
     }
     // console.log(filtertype);
@@ -906,7 +1033,7 @@ function rolledcard(cardid) {
 }
 
 
-var newchar = ['el',1,'character_'+data.length]
+var newchar = ['el',1,'character_'+data.length,["empty_tag"],[0,0,0,0]]
 
 var tuext = ""
 function newcardmenu() {
@@ -982,6 +1109,24 @@ function newcardmenu() {
     }
     toxt+='</div>'// closelist for class
 
+    toxt+='<div class="item">chartags</div>'
+    toxt+=`<textarea type="text" id="chartags" onchange="newchar[3]=document.getElementById('chartags').value.split(',')">`
+    for (let i = 0; i < newchar[3].length; i++) {
+        toxt+=newchar[3][i]+","
+    }
+    toxt+=`</textarea>`
+
+    toxt+='<div class="item">hp: init-max</div>'
+    toxt+='<div class="ricegum">'
+    toxt+=`<input type="text" id="charHPinit" onchange="newchar[4][0]=document.getElementById('charHPinit').value">`
+    toxt+=`<input type="text" id="charHPmax" onchange="newchar[4][1]=document.getElementById('charHPmax').value">`
+    toxt+='</div>'
+    toxt+='<div class="item">stagger: init-max</div>'
+    toxt+='<div class="ricegum">'
+    toxt+=`<input type="text" id="charSTGinit" onchange="newchar[4][3]=document.getElementById('charSTGinit').value">`
+    toxt+=`<input type="text" id="charSTGmax" onchange="newchar[4][4]=document.getElementById('charSTGmax').value">`
+    toxt+='</div>'
+
     toxt+='<div class="item">'
     toxt+='<div class="item">'
 
@@ -991,11 +1136,29 @@ function newcardmenu() {
     tuext+=newchar[2].toLowerCase().replace(" ", "_");
     tuext+='",\nname:"'
     tuext+=newchar[2];
-    tuext+='",\nbias:"3",\nklas:"'
+    tuext+='",\nbias:3,\nklas:'
     tuext+=newchar[1];
-    tuext+='",\nmaker:"'
+    tuext+=',\nmaker:"'
     tuext+=newchar[0];
-    tuext+='",\ntags:["empty_tag"],\nfulltags:[],\nactions:[\n],\npassives:[\n],\ndesc:"desc",\nmonth:'
+    tuext+='",\ntags:'+JSON.stringify(newchar[3])+',\nfulltags:[],\nactions:[\n],\npassives:['
+    if (!isin(0,newchar[4])) {
+        tuext+='\n\t{initial_health:'+newchar[4][0]+','
+        tuext+='max_health:'+newchar[4][1]+','
+
+        tuext+='\n\tinitial_stagger:'+newchar[4][3]+','
+        tuext+='max_stagger:'+newchar[4][4]+','
+
+        tuext+='\n\tobject_sprite:""},'
+    } else {
+        tuext+='\n\t{initial_health:'+newchar[1]*50+','
+        tuext+='max_health:'+newchar[1]*50+','
+
+        tuext+='\n\tinitial_stagger:'+100+','
+        tuext+='max_stagger:'+100+','
+
+        tuext+='\n\tobject_sprite:""},'
+    }
+    tuext+='\n],\ndesc:"desc",\nmonth:'
     tuext+=giveunix(Date.now()/1000,defunix,monUnit)
     tuext+=',\nratings:[],\ncardimglink:[],\nthumbnail_link:"",\n},'
     
@@ -1007,7 +1170,7 @@ function newcardmenu() {
     
     toxt+='<div class="butt" onclick="download(tuext,`'
     toxt+=newchar[2].toLowerCase().replace(" ", "_");
-    toxt+='`,`js`)">'
+    toxt+='.UXDOM`,`js`)">'
     toxt+='submit character</div>'
 
 
@@ -1042,4 +1205,20 @@ function getGPA(authorname,month) {
         }
     }
     return total/numofcards
+}
+
+function assignimges() {
+    let neounissigned = []
+    for (let i = 0; i < archeounissigned.length; i++) {
+        let unassigned = 1
+        for (let j = 0; j < data.length; j++) {
+            if (isin(archeounissigned[i],data[j].cardimglink)) {
+                unassigned=0
+            }
+        }
+        if (unassigned==1) {
+            neounissigned.push(archeounissigned[i])
+        }
+    }
+    unassignedimgs=neounissigned
 }

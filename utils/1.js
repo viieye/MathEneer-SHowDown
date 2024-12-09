@@ -31,14 +31,19 @@ if (datasort==1) {
     }
 }
 ///less statting from the very end
+var haverated = []
 for (let i = 0; i < ratings.length; i++) {
     let orphant=0
-    let haverated = []
     for (let j = 0; j < neodata.length; j++) {
         //if charcode matches the ratings
         if (neodata[j].name==ratings[ratings.length-i-1][0] || neodata[j].charcode==ratings[ratings.length-i-1][0]) {
             //will not happen if rating was already cast
-            neodata[j].ratings.push(ratings[ratings.length-i-1][1])
+            if (!isin(ratings[ratings.length-i-1][1][3]+neodata[j].name,haverated)) {
+                haverated.push(ratings[ratings.length-i-1][1][3]+neodata[j].name)
+                // console.log(haverated);
+                
+                neodata[j].ratings.push(ratings[ratings.length-i-1][1])
+            }
             orphant++
         }
     }
@@ -46,6 +51,9 @@ for (let i = 0; i < ratings.length; i++) {
         orphantratings.push(ratings[ratings.length-i-1][0])
     }
 }
+//free up space
+// haverated = []
+
 console.log(orphantratings);
 
 data=neodata
@@ -399,7 +407,11 @@ function downloadChardata(charID) {
     toxt+='",\nname:"'+name
     toxt+='",\nbias:'+data[charID].bias+',\nklas:'+data[charID].klas
     toxt+=',\nmaker:"'+data[charID].maker
-    toxt+='",\ntags:["empty_tag"],\nfulltags:[],\nactions:['
+    toxt+='",\ntags:['
+    for (let i = 0; i < data[charID].tags.length; i++) {
+        toxt+='"'+data[charID].tags[i]+'",'
+    }
+    toxt+='],\nfulltags:[],\nactions:['
     for (let i = 0; i < data[charID].actions.length; i++) {
         toxt+='\n\t{action_title:"'+data[charID].actions[i].action_title+'",'
 
@@ -444,16 +456,16 @@ function downloadChardata(charID) {
     }
     toxt+='\n],\ndesc:"desc",\nmonth:'+data[charID].month
     toxt+=',\nratings:['
-    for (let i = 0; i < data[charID].ratings.length; i++) {
-        toxt+= '['+ data[charID].ratings[i][0]+','+ data[charID].ratings[i][1]+','+ data[charID].ratings[i][2]
-        if (!data[charID].ratings[i][3]===undefined) {
-            toxt+= ',"'+ data[charID].ratings[i][3]+'","'+data[charID].ratings[i][4]+'"'
-        }
-        toxt+= '],'
-    }
+    // for (let i = 0; i < data[charID].ratings.length; i++) {
+    //     toxt+= '['+ data[charID].ratings[i][0]+','+ data[charID].ratings[i][1]+','+ data[charID].ratings[i][2]
+    //     if (!data[charID].ratings[i][3]===undefined) {
+    //         toxt+= ',"'+ data[charID].ratings[i][3]+'","'+data[charID].ratings[i][4]+'"'
+    //     }
+    //     toxt+= '],'
+    // }
     toxt+='],\ncardimglink:['
     for (let i = 0; i < data[charID].cardimglink.length; i++) {
-        toxt+='"'+data[charID].cardimglink[i]+'"'
+        toxt+='"'+data[charID].cardimglink[i]+'",'
     }
     toxt+='],\nthumbnail_link:"",\n},'
 

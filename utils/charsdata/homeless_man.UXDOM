@@ -1,0 +1,21 @@
+{
+charcode:"homeless_man",
+name:"Homeless Man",
+bias:3,
+klas:10,
+maker:"gogy",
+tags:["internet_origins","masculine_gender","human",],
+fulltags:[],
+actions:[
+],
+passives:[
+	{initial_health:500,max_health:500,
+	initial_stagger:100,max_stagger:100,
+	object_sprite:""},
+],
+desc:"desc",
+month:12,
+ratings:[],
+cardimglink:["homeless_man1-2.png","homeless_man2-0.png","homeless_man3-0.png",],
+thumbnail_link:"",
+},

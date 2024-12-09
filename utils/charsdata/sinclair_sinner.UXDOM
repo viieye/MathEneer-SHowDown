@@ -1,0 +1,21 @@
+{
+charcode:"sinclair_sinner",
+name:"sinclair_sinner",
+bias:3,
+klas:8,
+maker:"joshua",
+tags:["project_moon_franchise","human","masculine_gender","sinner",],
+fulltags:[],
+actions:[
+],
+passives:[
+	{initial_health:400,max_health:400,
+	initial_stagger:100,max_stagger:100,
+	object_sprite:""},
+],
+desc:"desc",
+month:13,
+ratings:[],
+cardimglink:["sinclair_sinner1-3.png","sinclair_sinner2-0.png","sinclair_sinner3-0.png",],
+thumbnail_link:"",
+},

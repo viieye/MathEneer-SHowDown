@@ -1,0 +1,21 @@
+{
+charcode:"argalia_fixer",
+name:"Argalia Fixer",
+bias:3,
+klas:10,
+maker:"joshua",
+tags:["project_moon_franchise","fixer","masculine_gender","human",],
+fulltags:[],
+actions:[
+],
+passives:[
+	{initial_health:500,max_health:500,
+	initial_stagger:100,max_stagger:100,
+	object_sprite:""},
+],
+desc:"desc",
+month:15,
+ratings:[],
+cardimglink:["argalia_fixer1-0.png","argalia_fixer2-0.png",],
+thumbnail_link:"",
+},

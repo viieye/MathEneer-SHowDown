@@ -1,0 +1,21 @@
+{
+charcode:"v1_machine",
+name:"V1 Machine",
+bias:3,
+klas:5,
+maker:"gogy",
+tags:["empty_tag"],
+fulltags:[],
+actions:[
+],
+passives:[
+	{initial_health:250,max_health:250,
+	initial_stagger:100,max_stagger:100,
+	object_sprite:""},
+],
+desc:"desc",
+month:12,
+ratings:[],
+cardimglink:["v1_machine1-2.png","v1_machine2-0.png","v1_machine3-0.png","v1_machine4-0.png",],
+thumbnail_link:"",
+},

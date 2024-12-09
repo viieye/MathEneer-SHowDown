@@ -25,6 +25,7 @@ var ratings = [
     ["rukia_kuchiki",[10,10,10,"gogy",""]],
     ["rukia_kuchiki",[10,10,10,"saba",""]],
     ["rukia_kuchiki",[9,6,10,"gogy",""]],
+    ["rukia_kuchiki",[9,6,10,"joshua","D9 (-1 for the feet) B6 C10"]],
     ["dagon_deamon",[7,8,10,"eno","i would never think of this shit"]],
     ["dagon_deamon",[8,8,9,"gogy",""]],
     ["super_idol",[10,10,10,"saba",""]],
@@ -95,7 +96,7 @@ var ratings = [
     ["bilal_olatunji",[8,8,10,"saba","I really dont like how barebones the card looks in my opinion, it dosent feel nice to look at either, theres no stroke or anything on it\ntheres 2 triangles in the corners to up the design up a bit but thats it\nits like a old era george or amadeo card"]],
 
     ["bilal_olatunji",[6,8,9,"joshua",""]],
-    // ["bilal",[6,10,10,"gogy",""]],
+    ["bilal_olatunji",[6,10,10,"gogy",""]],
     
     ["peter_griffin",[8,9,10,"eno","could use more work though love that is was inspired by manga type design. your average card not much to say here, really creative especially on the domain and some other abilities but thats all i can say. Werent it for the domain it would have been a 8 or 9"]],
     ["peter_griffin",[8,7,9,"joshua"," D: because the design is pretty empte, i like the overall look to it, manga pannels etc, but again it  feels bland and it has too much space, the icons are great, i aswellappriacte the fact that you started to change up your style a bit in comparisson with your old bullshit. B: because this doesnt seem like the best card to fight against, but neither the worst, overall most of the skills are pretty ballanced with dmg averaging around 60-120, which is normal for legendaries. the domain might be a tad bit broken but i like the ideas C: because i gave you points in the specials and the passives alongwith the domain, the normals seemed pretty bland and repeated on like other characters, although ill say that this couldve been done without a fucking domain expansion you couldve jsut made a normal cutwaya last special move or some shit you didnt have to do a fucking domain expansion, the black flash is oversued, normal barragae blah blah blah, meg being brought out is funny and creative, ipretty sure enea suggested that multiple times and etc. <br><br>overall i loved the card but you can do better in my opinion."]],
@@ -120,6 +121,67 @@ var ratings = [
     ["captain_jun",[10,8,9,"saba","lug"]],
     ["captain_jun",[10,7,7,"joshua","Gruggaga"]],
     ["captain_jun",[9,10,8,"viie","noise might be something intentional, but its not something that i perticularly like\n otherwise an interesting blood build from what i can understand"]],
+
+    
+    ["hana_fixer",[10,9,10,"saba","goes hard, legendary im pretty sure"]],
+    ["hana_fixer",[10,10,9,"viie","idk whats about this noise bout i like it this time, with full modern eno design, design is obvio 10, balance, i dont really know, but ill give eno a 10, will change it, if it happens to be sinclair levels of broken, and creativity... how about a 9, its refreshing to see ruina mechanics back here, and your implementation of them, but not something that hasnt been done before, additional bonus from ajacent things"]],
+    ["hana_fixer",[10,8,10,"amadeo","rating migh change but i dont want to put out my wrath on eno \n they dont want to see the monster inside of me...."]],
+    ["hana_fixer",[10,9,10,"joshua","Half hearted grug\n\nD10\nB5 yea no unc I used almighty and foreshadowed multiple outcomes and that speed die is annoying\nC9 I mean, passives carry ig"]],
+    
+    ["reverse_anxiety",[8,4,10,"joshua","Gruggaga "]],
+    ["reverse_anxiety",[9,5,10,"eno","Goes insanely hardHalf hearted grug\n\nD10\nB5 yea no unc I used almighty and foreshadowed multiple outcomes and that speed die is annoying\nC9 I mean, passives carry ig "]],
+    ["reverse_anxiety",[9,8,10,"saba",""]],
+    ["reverse_anxiety",[10,9,10,"gogy",""]],
+
+    ["lavianne_deathcheater",[10,5,9,"gogy","gurg"]],
+    ["lavianne_deathcheater",[10,7,9,"eno","I feel like something will happen despite me rating the balance highly. And no I’m not copying George’s rating"]],
+    ["lavianne_deathcheater",[10,8,9,"saba","the new gummy bear album drops on november 13th"]],
+    ["lavianne_deathcheater",[8,8,9,"amadeo","design is furious"]],
+
+    ["jia_xichun",[9,7,7,"amadeo","wrote the rating with one hand"]],
+    ["jia_xichun",[10,9,7,"saba","Grug"]],
+    ["jia_xichun",[10,10,10,"gogy","lowkey max grug hype"]],
+    ["jia_xichun",[10,10,10,"joshua",":)"]],
+    ["jia_xichun",[9,10,7,"viie","i still feel unconfident and outof touch with my ratings, i dont see anything out of balance, the attacks are interesting, but nature of creativity is naturally limiting, there is a limited amount of it, therefore later cards will have it harder with creating more creative cards"]],
+
+    ["captain_eno",[10,10,10,"joshua","Gruggaga"]],
+    ["captain_eno",[10,8,9,"saba","Grug"]],
+    ["captain_eno",[10,9,9,"viie","i dont expect any of this cards features to be overpowered so im rating its balance highly,\n same for the design, immaculate as usual, and for creativity im rating it an unfathomably high 9,\n so yeah, very good card"]],
+    
+    ["pocket_factory",[10,9,9,"saba",""]],
+    ["pocket_factory",[9,10,7,"amadeo","another infinite hp infinite stg support but we will take it, love the research aspect."]],
+    
+    ["magic_bullet",[10,9,9,"saba","Rarity prolly Epic or sumn\n\n[ i read it about 2 days ago, just forgot to paste this ]"]],
+    ["magic_bullet",[9,7,10,"joshua","D9 (main page feels empty, and crowded on the messages, passives feels crowded and meh)\nB7 (I guess the constant buffs is a bit game changing? Maybe the dark flame is also a bit too good.) \nC10"]],
+    ["magic_bullet",[10,7,9,"amadeo","grugination"]],
+    ["magic_bullet",[10,7,8,"viie","visually good, but the pic doesnt have the fullbody version of the character, this shows you dont have a good sprite, by virtue of rating this late i also know that to be true \n rolls are too low, for attacks with that kind of dmg, effectivity i think might be too high for a epic 9, \n cool boolet guy"]],
+
+    
+    ["xiao_ironlady",[10,6,10,"joshua","Alr so:\n\nGruggaga \nD10 (ofkars it's Xiao)\nB6 I already know what bullshittery saba has pulled up with Xiao, since I know the moves from making multiple xiao builds.\nC10 love the adaptation"]],
+    ["xiao_ironlady",[9,9,10,"eno","D10 unsurprisingly\nB7 its xiao so its an insane build with high dmg and bullshittery so i think this is deserved\nC10 Love the design love the way you implemented the ranges and rolls on the icons. Xiao Huong SHUUUU"]],
+    ["xiao_ironlady",[9,9,10,"gogy","D9 severe deduction because of length but the dice roll and range make up for it\nB7 Catasrophe in a evil guys hands also annoyng to fight againts\nC10 I AM FIREEEEEEEEEEEEEEEEEE"]],
+
+    
+    ["irina_burn",[10,8,9,"saba","forgot to grug this, read it when he sent it in dm's"]],
+    ["irina_burn",[10,7,10,"amadeo","Grugination"]],
+    ["irina_burn",[10,9,9,"amadeo","gruggaga \n D9 (i gues theres a bunch of space remaining, text walls and yea thats really it)\nB6 pluh if the final attack has all requirements met, its basically **ABA HESHO**\nC10"]],
+    ["irina_burn",[9,9,10,"gogy","@DRIZE"]],
+    ["irina_burn",[10,8,8,"viie","design good af as alsowatas \n literally idk donts aks me babanse \n cool things idk"]],
+
+
+    ["pallidfied_viie",[10,10,9,"viie","the design is cold (id say fire but that isnt exactly applicable, cold works too), its green, its #eno-modern what else can i say, even the textwall thing everyone was complaining about doesnt seem as prevalent; \n now for babance, dont ask me about balance, i dont see anything wierd im rating it 10, especially for an epic, \n for the creativity, its cool, earwig thing is unexpected,  interplay with captain eno is cool, we have the wet thing too"]],
+    ["pallidfied_viie",[8,9,10,"joshua","issues are the same as the previous ratings"]],
+    ["pallidfied_viie",[10,9,9,"amadeo","Grugination"]],
+    ["pallidfied_viie",[10,9,9,"saba","Lung cancer ination"]],
+
+    ["acer_dicer",[10,9,9,"eno","D8 The first card deserves a 10 the second one looks substantially worse but its still good i see the vision.\nB7 I mean nothing wrong with it but for an epic is very underwhelming\nC10 a diorn card that actually does him some justice"]],
+    ["acer_dicer",[9,9,10,"joshua","gruggaga "]],
+    ["acer_dicer",[10,8,10,"gogy",""]],
+
+    
+    ["argalia_fixer",[10,7,8,"amadeo","grugination"]],
+    ["argalia_fixer",[10,8,8,"eno","D10 as always\nB8 i feel i might regret this later\nC8 ruina card so not much creativity"]],
+    ["argalia_fixer",[10,8,8,"saba","Alr fr though D10 B7, that one passive is actually so frustrating, literally a free move with Free damage C9"]],
 ]
 
 var orphantratings = []

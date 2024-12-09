@@ -1,0 +1,21 @@
+{
+charcode:"dunkleosteus_placodermi",
+name:"Dunkleosteus Placodermi",
+bias:3,
+klas:3,
+maker:"amadeo",
+tags:["empty_tag"],
+fulltags:[],
+actions:[
+],
+passives:[
+	{initial_health:150,max_health:150,
+	initial_stagger:100,max_stagger:100,
+	object_sprite:""},
+],
+desc:"desc",
+month:12,
+ratings:[],
+cardimglink:["duncleosteus_placodermi.png",],
+thumbnail_link:"",
+},

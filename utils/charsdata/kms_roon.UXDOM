@@ -1,0 +1,21 @@
+{
+charcode:"kms_roon",
+name:"KMS Roon",
+bias:3,
+klas:10,
+maker:"saba",
+tags:["azure_lane_franchise","game_origins","anime_origins","feminine_gender",],
+fulltags:[],
+actions:[
+],
+passives:[
+	{initial_health:500,max_health:500,
+	initial_stagger:100,max_stagger:100,
+	object_sprite:""},
+],
+desc:"desc",
+month:11,
+ratings:[],
+cardimglink:["kms_roon1-2.png","kms_roon2-1.png","kms_roon3-0.png","kms_roon4-0.png","kms_roon5-0.png",],
+thumbnail_link:"",
+},

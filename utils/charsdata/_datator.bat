@@ -16,8 +16,8 @@ echo %beginningText% > %outputFile%
 echo. >> %outputFile%
 
 
-rem Loop through all txt files in the current directory
-for %%f in (*.txt) do (
+rem Loop through all UXDOM files in the current directory
+for %%f in (*.UXDOM) do (
     rem Read the content of each txt file and append it to the output file
     echo Combining %%f
     type "%%f" >> %outputFile%

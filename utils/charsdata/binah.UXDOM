@@ -1,0 +1,21 @@
+{
+charcode:"binah",
+name:"binah",
+bias:3,
+klas:10,
+maker:"saba",
+tags:['feminine_gender','project_moon_franchise','human','warrior','game_origins','lightskin',],
+fulltags:[],
+actions:[
+],
+passives:[
+	{initial_health:500,max_health:500,
+	initial_stagger:100,max_stagger:100,
+	object_sprite:""},
+],
+desc:"desc",
+month:8,
+ratings:[],
+cardimglink:["binah1-4.png","binah2-0.png",],
+thumbnail_link:"",
+},
