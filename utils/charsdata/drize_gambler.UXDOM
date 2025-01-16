@@ -1,0 +1,21 @@
+{
+charcode:"drize_gambler",
+name:"Drize",
+bias:3,
+klas:10,
+maker:"eno",
+tags:["empty_tag",],
+fulltags:[],
+actions:[
+],
+passives:[
+	{initial_health:500,max_health:500,
+	initial_stagger:100,max_stagger:100,
+	object_sprite:""},
+],
+desc:"desc",
+month:16,
+ratings:[],
+cardimglink:["drize_gambler1-1.png","drize_gambler2-1.png","drize_gambler3-1.png",],
+thumbnail_link:"",
+},

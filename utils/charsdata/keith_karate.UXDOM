@@ -1,0 +1,21 @@
+{
+charcode:"keith_karate",
+name:"Keith",
+bias:3,
+klas:1,
+maker:"michael",
+tags:["empty_tag",],
+fulltags:[],
+actions:[
+],
+passives:[
+	{initial_health:50,max_health:50,
+	initial_stagger:100,max_stagger:100,
+	object_sprite:""},
+],
+desc:"desc",
+month:16,
+ratings:[],
+cardimglink:["keith_karate1-0.png",],
+thumbnail_link:"",
+},

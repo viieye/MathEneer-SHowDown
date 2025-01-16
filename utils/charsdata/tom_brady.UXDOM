@@ -1,0 +1,21 @@
+{
+charcode:"tom_brady",
+name:"Tom Brady",
+bias:3,
+klas:5,
+maker:"michael",
+tags:["empty_tag",],
+fulltags:[],
+actions:[
+],
+passives:[
+	{initial_health:250,max_health:250,
+	initial_stagger:100,max_stagger:100,
+	object_sprite:""},
+],
+desc:"desc",
+month:16,
+ratings:[],
+cardimglink:["tom_brady1-1.png",],
+thumbnail_link:"",
+},

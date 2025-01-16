@@ -1,0 +1,21 @@
+{
+charcode:"donald_trump",
+name:"Donald Trump",
+bias:3,
+klas:1,
+maker:"michael",
+tags:["empty_tag",],
+fulltags:[],
+actions:[
+],
+passives:[
+	{initial_health:50,max_health:50,
+	initial_stagger:100,max_stagger:100,
+	object_sprite:""},
+],
+desc:"desc",
+month:16,
+ratings:[],
+cardimglink:["donald_trump1-2.png",],
+thumbnail_link:"",
+},

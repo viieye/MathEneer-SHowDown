@@ -1,0 +1,21 @@
+{
+charcode:"executioner_wasp",
+name:"Executioner Wasp",
+bias:3,
+klas:3,
+maker:"gogy",
+tags:["empty_tag"],
+fulltags:[],
+actions:[
+],
+passives:[
+	{initial_health:150,max_health:150,
+	initial_stagger:100,max_stagger:100,
+	object_sprite:""},
+],
+desc:"desc",
+month:16,
+ratings:[],
+cardimglink:[],
+thumbnail_link:"",
+},

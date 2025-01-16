@@ -1,0 +1,21 @@
+{
+charcode:"war_machine",
+name:"War Machine",
+bias:3,
+klas:10,
+maker:"michael",
+tags:["empty_tag",],
+fulltags:[],
+actions:[
+],
+passives:[
+	{initial_health:500,max_health:500,
+	initial_stagger:100,max_stagger:100,
+	object_sprite:""},
+],
+desc:"desc",
+month:16,
+ratings:[],
+cardimglink:["war_machine1-0.png","war_machine2-0.png","war_machine3-0.png",],
+thumbnail_link:"",
+},

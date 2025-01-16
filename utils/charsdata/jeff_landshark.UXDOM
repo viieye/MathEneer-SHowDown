@@ -1,0 +1,21 @@
+{
+charcode:"jeff_landshark",
+name:"Jeff The Land Shark",
+bias:3,
+klas:1,
+maker:"eno",
+tags:["empty_tag"],
+fulltags:[],
+actions:[
+],
+passives:[
+	{initial_health:50,max_health:50,
+	initial_stagger:100,max_stagger:100,
+	object_sprite:""},
+],
+desc:"desc",
+month:15,
+ratings:[],
+cardimglink:[],
+thumbnail_link:"",
+},

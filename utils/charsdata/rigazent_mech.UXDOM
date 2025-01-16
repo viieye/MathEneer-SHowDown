@@ -1,0 +1,21 @@
+{
+charcode:"rigazent_mech",
+name:"Rigazent Mech",
+bias:3,
+klas:10,
+maker:"arman",
+tags:["empty_tag"],
+fulltags:[],
+actions:[
+],
+passives:[
+	{initial_health:500,max_health:500,
+	initial_stagger:100,max_stagger:100,
+	object_sprite:""},
+],
+desc:"desc",
+month:15,
+ratings:[],
+cardimglink:[],
+thumbnail_link:"",
+},

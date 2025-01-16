@@ -1191,6 +1191,11 @@ function giveunix(endtime,submitunix,unit) {
     return Math.floor((endtime-submitunix)/unit)
 }
 
+function giveunixwindow(unitid,submitunix,unit) {
+    return [unitid*unit+submitunix,(unitid+1)*unit+submitunix]
+    
+}
+
 function getGPA(authorname,month) {
     let numofcards = 0
     let total = 0

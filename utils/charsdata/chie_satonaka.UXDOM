@@ -1,0 +1,21 @@
+{
+charcode:"chie_satonaka",
+name:"Chie Satonaka",
+bias:3,
+klas:5,
+maker:"eno",
+tags:["empty_tag",],
+fulltags:[],
+actions:[
+],
+passives:[
+	{initial_health:250,max_health:250,
+	initial_stagger:100,max_stagger:100,
+	object_sprite:""},
+],
+desc:"desc",
+month:16,
+ratings:[],
+cardimglink:["chie_satonaka1-0.png",],
+thumbnail_link:"",
+},

@@ -182,6 +182,100 @@ var ratings = [
     ["argalia_fixer",[10,7,8,"amadeo","grugination"]],
     ["argalia_fixer",[10,8,8,"eno","D10 as always\nB8 i feel i might regret this later\nC8 ruina card so not much creativity"]],
     ["argalia_fixer",[10,8,8,"saba","Alr fr though D10 B7, that one passive is actually so frustrating, literally a free move with Free damage C9"]],
+
+    ["rigazent_mech",[8,9,10,"eno","D8 Your first card so i can be lenient here. In all honesty design could use a bit of work but youll get the hang of it\nB9 Great legendary pretty balanced first card\nC10\nGrugazent"]],
+    ["rigazent_mech",[7,9,10,"gogy","gruggantion will be happening"]],
+    ["rigazent_mech",[7,8,10,"saba",""]],
+    ["rigazent_mech",[7,7,9,"michael",""]],
+
+    ["hanataro_yamada",[8,9,8,"eno","Ugh finally a George card\nD8 Pretty good design but a little basic in my opinion\nB9 A supporting support. Reminds me of medic kinda\nC8 Basic moves nothing that hasnt been done before.Cool gauge mechanic tho\nGrug nation"]],
+    ["hanataro_yamada",[7,9,9,"joshua","Pluhed"]],
+
+    ["molaroffice_ido",[9,9,8,"amadeo","grug"]],
+    ["molaroffice_ido",[9,9,8,"joshua","pluhed"]],
+    ["molaroffice_ido",[10,8,9,"saba","from the D10 \nto the B8 \nto the C9\nTo the Board\nwheres my Burst\nAlways glass cannon epics when i ring"]],
+    
+    ["peppino_pizza",[8,10,10,"eno","D8 great readability, good background and just overall good but a bit simple\nB10 seems fun to play\nC10 Cool mechanics and shit\nGruggaga"]],
+    ["peppino_pizza",[8,9,10,"saba","pizza"]],
+    ["peppino_pizza",[9,6,9,"michael",""]],
+
+    ["jeff_landshark",[10,10,10,"gogy","GRUG"]],
+    ["jeff_landshark",[10,6,10,"joshua","Grug"]],
+    ["jeff_landshark",[8,8,7,"michael",""]],
+    
+    ["war_machine",[8,8,9,"eno","I already read this in dms :Goonba: \nD8 Quite alot of text walls, love you took inspo from me im gonna kiss you, otherwise good design\nB8 Good legendary fairly balanced\nC9 not much to say\nGruggaga"]],
+    ["war_machine",[9,9,9,"gogy","gurg"]],
+    ["war_machine",[8,8,9,"saba",""]],
+    ["war_machine",[9,8,8,"amadeo","D9 perfect sleek metalic looks fit the card, the fint also fits but i say it could have more detail and be a bit less crowded\nB8 asshole card flyng cunt needs to take a nuke before falling down for a nanosecond other then that he looks extremely fun to play (nnn chain) and very good damages/cldwns for a legendary \nC8 id say better example of the flying as much as this is from another franchise it adapts pretty well and fits perfectly fighting againts other cards \n\n Absolute grug (sry for the wait, im just a girl 🤷🏼‍♀️😹😅)"]],
+
+    ["guri_muri",[10,3,10,"michael",""]],
+    ["guri_muri",[8,5,10,"eno","GURI MURI\nGrugnation"]],
+    ["guri_muri",[10,10,10,"saba","easiest grug"]],
+    ["guri_muri",[6,3,10,"joshua","Semi-grug"]],
+    ["guri_muri",[6,3,10,"amadeo","D10 B10 C0\nThug\nno no, i say when we are done…"]],
+    
+    ["chie_satonaka",[8,9,10,"saba",""]],
+    ["chie_satonaka",[8,9,10,"amadeo","D8 citrusy happy ass design pisses me off made me think about what color theme would a card based of my life have\nB9 powerful As As As type build most definitely ways to counter it funny ways to beat it since its braindead but guaranteed to be fun to play on both sides (besides the imboilize)\nC8 reminds me of jeff bezos based of his attack set but other then that pretty good nothing marvelous tho\n\ndisturbing the gruuuug\nlook in to my ovennnnn"]],
+
+    
+    ["keith_karate",[8,9,9,"eno","Grug D8 B9 C9"]],
+    ["keith_karate",[7,9,5,'viie',"crazy, oldcore card"]],
+    ["keith_karate",[8,8,8,"eno","D8 B8 C8\nGrugPot"]], 
+    
+    ["venom_snake",[9,4,10,"joshua","Gruggaga\nD9 B4 C10 \nI love the card\nAnd it's premise\nBalance bye bye though\n"]],
+    ["venom_snake",[10,6,10,"saba","D10 B6 C10 shits good, balance goes Bye bye [ mewing skibidi sigma music ]"]],
+    ["venom_snake",[8,8,10,"amadeo","D8  one of the better looking red cards but i expected a bit of a different design that would fit the spy/collapse ascetic\nB8 more of a balanced sneak build but it does seem more heavily fun  on the user then the reaciver\nC10 Absolute cinema a lot of new abilities made a fun sneaking class with its own spin on it and the abilites mix well with the passives\n[not_bad_kid.gif]\nsolid grug"]],
+    ["venom_snake",[9,7,10,"gogy",""]],
+    
+    ["moist_critical",[8,9,9,"amadeo","D8 B9 C9 \nsolid 8.7/10 on the grug meeter"]],
+    ["moist_critical",[8,9,10,"gogy",""]],
+    ["moist_critical",[1,1,1,"eno","Thug D1 B1 C1"]],
+    ["moist_critical",[1,1,1,"eno","Thank you michael for reminding me\nD1 B1 C1"]],
+    ["moist_critical",[7,8,8,"armen","All that effort to help Michael improve his card went down to waste"]],
+    ["moist_critical",[9,9,10,"saba","Grug\nmixo asked me to remove yesterday mb"]],
+    
+    ["ayden_grayman",[8,9,10,"michael",""]],
+    ["ayden_grayman",[8,8,9,"saba","this nigga with Kritzkreig + Goodbye would go hard"]],
+    ["ayden_grayman",[8,8,8,"amadeo","D8 love the blue ascetic its good to look at but the yomi icons are ofc not my favorite \nB8 very versatile generalist i would suggest other moves but i think you wanna post card now either way making the quake move not aply quake is top 5 rage bait to trigger me\nC8 based of another character the premise is simple nothing out of the ordinary and the ions are pretty fucking cold\nabsolutely a grug i wanna see how this plays out\n"]],
+
+    ["wolverine_hughjackman",[10,10,10,"joshua","grug"]],
+    ["wolverine_hughjackman",[9,8,7,"saba","D9 Enoist type shift\nB8\nC7"]],
+    ["wolverine_hughjackman",[9,9,9,"gogy","D9 B9 C9\ngruglious"]],
+
+    
+    ["deogracias_support",[8,9,10,"joshua","Grug"]],
+    ["deogracias_support",[9,8,9,"eno","D9 reminds me of uxdom a year ago\nB8 fairly balanced seems fair\nC9 pretty interesting, love the gimmick great first card"]],
+    ["deogracias_support",[8,10,8,"amadeo","D8 B10 C8 Grugza"]],
+    ["deogracias_support",[8,8,6,"michael",""]],
+    
+    ["yuri_fixer",[10,10,10,"joshua","grug\nd10\nb10\nc10"]],
+    ["yuri_fixer",[10,10,10,"gogy","biased rating d10 b10 c10 grugis"]],
+    ["yuri_fixer",[10,10,10,"saba",""]],
+    ["yuri_fixer",[10,10,10,"eno","D10 B10 C10 ts is too funny"]],
+    ["yuri_fixer",[10,10,10,"amadeo","D10 B10 C10 magnum opus"]],
+    
+    ["daryl_fernandez",[1,1,1,"eno","D-1 B-1 C-1"]],
+    ["daryl_fernandez",[3,3,3,"joshua","flew too close to the sun 💔 \nD3 B3 C3 grug ig"]],
+    ["daryl_fernandez",[7,8,9,"amadeo","grug"]],
+    ["daryl_fernandez",[8,8,10,"gogy",""]],
+    ["daryl_fernandez",[8,8,10,"saba",""]],
+
+    ["donald_trump",[9,8,8,"joshua","Gruggaga \n\nD9 ( text walls )\nB8 nothing changed much compared to the old card\nC8 same rating as previously"]],
+    ["donald_trump",[10,9,10,"saba","D10 [ Text walls ]\nB9\nC10"]],
+    ["donald_trump",[10,9,10,"amadeo","D9 cant say anyting to improve the design unless it enforces you to remake the whole card\nB10 card holds a special place in my heart, always remained a decent rare from when it was made to now, this adapatation fits the current meta well even without using status effects\nC8 Long rande support esque the hail mary goes crazy but other then that this card is getting a direct kiss on the lips\n**GRUGDOWN**"]],
+
+    ["tom_brady",[9,10,8,"amadeo","D9 is good\nB10 never fails to balance tom fucking brady of all things\nC9 cmere let me give you a smooch on the lips"]],
+    ["tom_brady",[9,10,9,"saba","D9 is good\nB10 never fails to balance tom fucking brady of all things\nC9 cmere let me give you a smooch on the lips\n\n**COSMIC GRUGDOWN**\n[ i only copied the grugdown from you ]\n[ the ratings legit ]"]],
+    ["tom_brady",[8,8,7,"eno","D8 B8 C7 honest gruggaga"]],
+
+    ["drize_gambler",[8,8,7,"gogy","ok so after reading this twice because of the enograph ill give this D8 B8 C10\ngrungus"]],
+    ["drize_gambler",[10,9,10,"saba","Grug, same rating as before"]],
+    
+    
+    ["executioner_wasp",[8,8,8,"joshua","Grug\nD8 interesting design choice, couldve been executed better (get it? executed?)\nB8 Fairly balanced\nC8 I mean, its creative, but then again couldve seen some more stuff be done with the wasp"]],
+    ["executioner_wasp",[6,10,10,"amadeo","D6 B10 C10\nbzzzzug "]],
+    ["executioner_wasp",[8,6,9,"michael",""]],
+    ["executioner_wasp",[8,9,10,"michael","Grug"]],
 ]
 
 var orphantratings = []
