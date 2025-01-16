@@ -4,7 +4,7 @@ name:"Tom Brady",
 bias:3,
 klas:5,
 maker:"michael",
-tags:["empty_tag",],
+tags:['masculine_gender',],
 fulltags:[],
 actions:[
 ],

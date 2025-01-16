@@ -1,5 +1,6 @@
 var wikimode=0
 var selchar=-1
+var simpledisplay = 1
 // var filter="stat/rate/wavrg"
 var filter="stat/month/this"
 // var filter="stat/image"
@@ -461,7 +462,8 @@ function vizcard(cardid) {
     let toxt = ""
     toxt+='<div class="smallcard butt" onclick="selectcard('+cardid
     toxt+=')"><div class="images">'
-    for (let i = 0; i < data[cardid].cardimglink.length; i++) {
+    let len = (simpledisplay==1)? 1:data[cardid].cardimglink.length
+    for (let i = 0; i < len; i++) {
         toxt+='<div class="onecard" style="background-image: url('
         if (data[cardid].thumbnail_link===undefined) {
             toxt+=linker+'images/mainclass_cards/'+data[cardid].cardimglink[i]
@@ -473,7 +475,7 @@ function vizcard(cardid) {
             }
         }
         toxt+=');width: '
-        toxt+=Math.floor(100/data[cardid].cardimglink.length)
+        toxt+=Math.floor(100/len)
         toxt+='%">'
         toxt+='</div>'
     }

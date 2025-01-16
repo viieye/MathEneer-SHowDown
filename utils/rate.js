@@ -234,9 +234,9 @@ var ratings = [
     ["moist_critical",[7,8,8,"armen","All that effort to help Michael improve his card went down to waste"]],
     ["moist_critical",[9,9,10,"saba","Grug\nmixo asked me to remove yesterday mb"]],
     
-    ["ayden_grayman",[8,9,10,"michael",""]],
-    ["ayden_grayman",[8,8,9,"saba","this nigga with Kritzkreig + Goodbye would go hard"]],
-    ["ayden_grayman",[8,8,8,"amadeo","D8 love the blue ascetic its good to look at but the yomi icons are ofc not my favorite \nB8 very versatile generalist i would suggest other moves but i think you wanna post card now either way making the quake move not aply quake is top 5 rage bait to trigger me\nC8 based of another character the premise is simple nothing out of the ordinary and the ions are pretty fucking cold\nabsolutely a grug i wanna see how this plays out\n"]],
+    ["aiden_grayman",[8,9,10,"michael",""]],
+    ["aiden_grayman",[8,8,9,"saba","this nigga with Kritzkreig + Goodbye would go hard"]],
+    ["aiden_grayman",[8,8,8,"amadeo","D8 love the blue ascetic its good to look at but the yomi icons are ofc not my favorite \nB8 very versatile generalist i would suggest other moves but i think you wanna post card now either way making the quake move not aply quake is top 5 rage bait to trigger me\nC8 based of another character the premise is simple nothing out of the ordinary and the ions are pretty fucking cold\nabsolutely a grug i wanna see how this plays out\n"]],
 
     ["wolverine_hughjackman",[10,10,10,"joshua","grug"]],
     ["wolverine_hughjackman",[9,8,7,"saba","D9 Enoist type shift\nB8\nC7"]],
