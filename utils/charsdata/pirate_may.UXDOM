@@ -1,0 +1,21 @@
+{
+charcode:"pirate_may",
+name:"The little pirate May",
+bias:3,
+klas:5,
+maker:"eno",
+tags:["human","feminine_gender","guilty_gear_franchise","warrior",],
+fulltags:[],
+actions:[
+],
+passives:[
+	{initial_health:250,max_health:250,
+	initial_stagger:100,max_stagger:100,
+	object_sprite:""},
+],
+desc:"desc",
+month:7,
+ratings:[],
+cardimglink:["pirate_may.png",],
+thumbnail_link:"",
+},

@@ -276,6 +276,28 @@ var ratings = [
     ["executioner_wasp",[6,10,10,"amadeo","D6 B10 C10\nbzzzzug "]],
     ["executioner_wasp",[8,6,9,"michael",""]],
     ["executioner_wasp",[8,9,10,"michael","Grug"]],
+    
+    ["stelio_kontos",[10,7,10,"joshua",""]],
+    ["stelio_kontos",[10,6,10,"saba","Analog Horror grug"]],
+    ["stelio_kontos",[9,8,9,"gogy","after reading this heres my rating\nD9: Love the glitter effect on the text and the whole blue theme/greek theme\nB8 its ok imo nothing too bad\nC9 would have been cool if you added a greku reference because hes greek"]],
+    
+    ["kairi_keywielder",[10,8,10,"gogy",""]],
+    ["kairi_keywielder",[10,7,9,"joshua","ill be giving this card a solid gruggaga"]],
+    ["kairi_keywielder",[10,8,9,"saba","Grug during math\nIm not fucking joking"]],
+    
+    ["true_intentions",[10,10,10,"saba","d10b10c10 instant grug"]],
+
+    ["george_droyd",[9,9,10,'viie',"amazing work, really creative, love cyberpunk cards \nthe text is kinda cramped, amadeo is the last bastion of one card chars igen \nanyway thats all i have to say, as i type it on phone\n 💀🔥💚"]],
+    ["george_droyd",[10,10,9,'saba',""]],
+    ["george_droyd",[8,10,10,'eno',""]],
+
+    ["piper_airport",[10,10,10,"gogy","d10b10c10 instant grug"]],
+    ["piper_airport",[10,8,8,"joshua","Grugagga"]],
+    ["piper_airport",[10,7,10,"amadeo","Card Grugged Please Proceed to Gate: [#character-info]  thank you for listening"]],
+    
+    ["greninja_pokemon",[10,10,10,"michael",""]],
+    ["greninja_pokemon",[9,9,9,"saba",""]],
+    ["greninja_pokemon",[8,10,9,"enio","Gruggemon"]],
 ]
 
 var orphantratings = []

@@ -1,0 +1,21 @@
+{
+charcode:"greninja_pokemon",
+name:"Greninja Pokemon",
+bias:3,
+klas:10,
+maker:"arman",
+tags:["empty_tag",],
+fulltags:[],
+actions:[
+],
+passives:[
+	{initial_health:500,max_health:500,
+	initial_stagger:100,max_stagger:100,
+	object_sprite:""},
+],
+desc:"desc",
+month:17,
+ratings:[],
+cardimglink:["greninja_pokemon1-0.png","greninja_pokemon2-0.png","greninja_pokemon3-0.png",],
+thumbnail_link:"",
+},

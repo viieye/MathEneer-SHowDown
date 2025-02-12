@@ -1,0 +1,21 @@
+{
+charcode:"insurgent_weakest",
+name:"Weakest Insurgent",
+bias:3,
+klas:3,
+maker:"amadeo",
+tags:["muslim","human","group-chacracter","spawner","afghanian",],
+fulltags:[],
+actions:[
+],
+passives:[
+	{initial_health:150,max_health:150,
+	initial_stagger:100,max_stagger:100,
+	object_sprite:""},
+],
+desc:"desc",
+month:7,
+ratings:[],
+cardimglink:["insurgent_weakest.png",],
+thumbnail_link:"",
+},

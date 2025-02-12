@@ -1,0 +1,21 @@
+{
+charcode:"elphelt_valentine",
+name:"Elphelt Valentine",
+bias:3,
+klas:5,
+maker:"eno",
+tags:["human","game_origins","guilty_gear_franchise","feminine_gender","lightskin",],
+fulltags:[],
+actions:[
+],
+passives:[
+	{initial_health:250,max_health:250,
+	initial_stagger:100,max_stagger:100,
+	object_sprite:""},
+],
+desc:"desc",
+month:7,
+ratings:[],
+cardimglink:["ephelt_valentine.png",],
+thumbnail_link:"",
+},

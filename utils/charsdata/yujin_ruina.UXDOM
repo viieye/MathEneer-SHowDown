@@ -1,0 +1,21 @@
+{
+charcode:"yujin_ruina",
+name:"Yujin",
+bias:3,
+klas:10,
+maker:"joshua",
+tags:["feminine_gender","human","project_moon_franchise",],
+fulltags:[],
+actions:[
+],
+passives:[
+	{initial_health:500,max_health:500,
+	initial_stagger:100,max_stagger:100,
+	object_sprite:""},
+],
+desc:"desc",
+month:9,
+ratings:[],
+cardimglink:["yujin1_3.png","yujin2_0.png",],
+thumbnail_link:"",
+},
