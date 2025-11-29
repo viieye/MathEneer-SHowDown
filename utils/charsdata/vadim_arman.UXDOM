@@ -1,15 +1,15 @@
 {
-charcode:"pirate_may",
-name:"pirate may",
+charcode:"vadim_arman",
+name:"vadim arman",
 bias:3,
-klas:5,
+klas:10,
 maker:"eno",
 tags:["empty_tag"],
 fulltags:[],
 actions:[
 ],
 passives:[
-	{initial_health:250,max_health:250,
+	{initial_health:500,max_health:500,
 	initial_stagger:100,max_stagger:100,
 	object_sprite:""},
 ],

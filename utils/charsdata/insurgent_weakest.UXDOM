@@ -15,7 +15,7 @@ passives:[
 ],
 desc:"desc",
 month:7,
-ratings:[],
+ratings:[[8,9,10],[9,8,10],[8,9,9],],
 cardimglink:["insurgent_weakest.png",],
 thumbnail_link:"",
 },

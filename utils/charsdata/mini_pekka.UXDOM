@@ -1,9 +1,9 @@
 {
-charcode:"pirate_may",
-name:"pirate may",
+charcode:"mini_pekka",
+name:"Mini PEKKA",
 bias:3,
 klas:5,
-maker:"eno",
+maker:"michael",
 tags:["empty_tag"],
 fulltags:[],
 actions:[
@@ -14,7 +14,7 @@ passives:[
 	object_sprite:""},
 ],
 desc:"desc",
-month:22,
+month:27,
 ratings:[],
 cardimglink:[],
 thumbnail_link:"",

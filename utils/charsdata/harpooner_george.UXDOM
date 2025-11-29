@@ -1,6 +1,6 @@
 {
-charcode:"pirate_may",
-name:"pirate may",
+charcode:"harpooner_george",
+name:"Harpooner George",
 bias:3,
 klas:5,
 maker:"eno",
@@ -14,7 +14,7 @@ passives:[
 	object_sprite:""},
 ],
 desc:"desc",
-month:22,
+month:26,
 ratings:[],
 cardimglink:[],
 thumbnail_link:"",

@@ -1,6 +1,6 @@
 {
-charcode:"pirate_may",
-name:"pirate may",
+charcode:"ventus_keyblademan",
+name:"ventus keyblademan",
 bias:3,
 klas:5,
 maker:"eno",
@@ -14,7 +14,7 @@ passives:[
 	object_sprite:""},
 ],
 desc:"desc",
-month:22,
+month:23,
 ratings:[],
 cardimglink:[],
 thumbnail_link:"",

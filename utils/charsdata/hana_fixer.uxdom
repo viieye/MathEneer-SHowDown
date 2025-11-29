@@ -1,6 +1,6 @@
 {
 charcode:"hana_fixer",
-name:"Hana fixer",
+name:"hana fixer",
 bias:3,
 klas:10,
 maker:"eno",
@@ -14,8 +14,8 @@ passives:[
 	object_sprite:""},
 ],
 desc:"desc",
-month:14,
+month:20,
 ratings:[],
-cardimglink:["hana_fixer1-0.png","hana_fixer2-0.png",],
+cardimglink:[],
 thumbnail_link:"",
 },
