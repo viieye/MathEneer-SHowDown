@@ -159,7 +159,11 @@ function selectcard(cardid) {
         }
         toxt+='</div>'
         toxt+='<div class="list">'
-        toxt+=`<div onclick="document.getElementById('imglinks').value+=','" class="butt item">+,</div>`
+        toxt+=`<div onclick="document.getElementById('imglinks').value+=','" class="butt item">+ ","</div>`
+        toxt+=`<div onclick="document.getElementById('imglinks').value+='.png'" class="butt item">+ ".png"</div>`
+        toxt+=`<div onclick="document.getElementById('imglinks').value+='`+data[cardid].charcode+`'" class="butt item">+ charcode</div>`
+        toxt+=`<div onclick="document.getElementById('imglinks').value+='1-0.png'" class="butt item">+ "1-0.png"</div>`
+        toxt+=`<div onclick="document.getElementById('imglinks').value+='2-0.png'" class="butt item">+ "2-0.png"</div>`
         toxt+=`<div onclick="submitimglinks(document.getElementById('imglinks').value,`
         toxt+=cardid
         toxt+=')" class="butt item">submit</div>'

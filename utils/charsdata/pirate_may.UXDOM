@@ -1,10 +1,10 @@
 {
 charcode:"pirate_may",
-name:"pirate may",
+name:"The little pirate May",
 bias:3,
 klas:5,
 maker:"eno",
-tags:["empty_tag"],
+tags:["human","feminine_gender","guilty_gear_franchise","warrior",],
 fulltags:[],
 actions:[
 ],
@@ -14,8 +14,8 @@ passives:[
 	object_sprite:""},
 ],
 desc:"desc",
-month:22,
+month:23,
 ratings:[],
-cardimglink:[],
+cardimglink:["pirate_may1-1.png","pirate_may2-1.png",],
 thumbnail_link:"",
 },

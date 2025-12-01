@@ -297,7 +297,75 @@ var ratings = [
     
     ["greninja_pokemon",[10,10,10,"michael",""]],
     ["greninja_pokemon",[9,9,9,"saba",""]],
-    ["greninja_pokemon",[8,10,9,"enio","Gruggemon"]],
+    ["greninja_pokemon",[8,10,9,"eno","Gruggemon"]],
+    
+    ["roxas_keyblademan",[7,8,9,"arman",""]],    
+    ["roxas_keyblademan",[10,9,9,"saba","Solid"]],    
+    ["roxas_keyblademan",[10,10,10,"joshua","gruggaga"]],    
+    
+    ["volkswagen_phaeton",[10,6,9,"amadeo","Gruu Gruuuuu GRUUUUUUUUUUUUG \nMajor griefing potential"]],    
+    ["volkswagen_phaeton",[10,8,10,"viie","its snowing too much cant type a propper comment"]],
+    ["volkswagen_phaeton",[8,6,10,"michael",""]],
+    
+    ["nanami_cleaverman",[10,9,9,"saba","lung cancer"]],
+    ["nanami_cleaverman",[10,10,7,"amadeo","ts a grug? \nhttps://discord.com/channels/1146878161108349003/1297801599900717057/1341066961811013704"]],
+    ["nanami_cleaverman",[8,10,9,"gogy",""]],
+    
+    ["dianthus_joshua",[8,10,9,"joshua","gruggaga "]],
+    ["dianthus_joshua",[10,8,9,"saba",""]],
+    ["dianthus_joshua",[10,9,10,"gogy","D10 (would rate 11 but theres no option) B9 C10"]],
+    
+    ["sheren_jinxur",[8,9,10,"eno","Gruggaga and lore accurate card design. Peak peak peak"]],
+    ["sheren_jinxur",[10,10,10,"saba","D10 B10 C10, been a while\n......Still dont feel like continuing ohio final boss yet"]],
+    ["sheren_jinxur",[9,9,10,"gogy",""]],
+
+    
+    ["dannyb_pingprodigy",[8,9,10,"gogy",""]],
+    ["dannyb_pingprodigy",[8,8,10,"joshua","D8 unc fell off a bit since it's been a while since you made cards\nB8 I mean, reasonably balanced for a uncommon \nC10 mini amadeo\nGruggaga"]],
+    ["dannyb_pingprodigy",[10,10,10,"saba","D8 unc fell off a bit since it's been a while since you made cards\nB8 I mean, reasonably balanced for a uncommon \nC10 mini amadeo\nGruggaga\n+\nD8 B9 C10 @joshua\n+\nD10 B8 C10\n=\n\nD10 B10 C10\nSpecifically waited to be last to make the ultimate rating"]],
+
+
+    ["itoshi_rin",[7,6,9,"gogy","D7 major potential in design\nB6 unfinished\nC9"]],
+    ["itoshi_rin",[7,6,8,"eno","D7\nB6 unfinished\nC9\nWill change when reworked"]],
+
+    ["soso_soccerman",[7,7,8,"eno","Grugnation"]],
+    ["soso_soccerman",[8,8,9,"amadeo",""]],
+
+    ["shoshi_shonshee",[8,8,9,"eno","Grugnation\nD9 Love this card its green its enoish it has shitpost icons. Its like judge and executioner but funnier\nB9 Strong but balanced i like it\nC8 decently creative love shonshee"]],
+    ["shoshi_shonshee",[10,9,8,"viie","approved:\nd10 b[TBD] c8\n\nEDIT(1 december 2025): i determined its 9"]],
+    ["shoshi_shonshee",[10,10,10,"saba","B 10\nC 10\nD 10\ngrug"]],
+    ["shoshi_shonshee",[9,7,10,"joshua","Grug D9 (Some of the font is annoying to read, so I had to zoom in a bit, over all the art and vibe is great)\nB7 Snowball effect, this feels like a Josh card disguised by Amadeo propaganda\nC10 Over all creative card, some stuff are reused from other cards like deriviation mechanic, but also new status effects, and aswell a snowball strength effect which i hadnt seen before tbh."]],
+
+    ["shukuro_tsukushima",[10,8,10,"eno","D10 as usual B8 C10"]],
+    ["shukuro_tsukushima",[10,8,10,"saba","B 10\nC 8\nD 10\ngrug"]],
+    ["shukuro_tsukushima",[10,8,9,"gogy",""]],
+    ["shukuro_tsukushima",[9,9,8,"amadeo","D9 love the colors icons are good could have played more around with antique picturesque book style, but silver with green fire works.\nB9 character should be more fragile and work better with teammates thus he should work as mini pekka\nC8 book ability is fine character has decent move set that compliments his main passive/activation book"]],
+
+    ["terra_keybladeyan",[9,10,8,"joshua",""]],
+    ["terra_keybladeyan",[9,8,8,"amadeo","D9 purple yellow reminds me of morgenstein\nB8 quake is fucking annoying but this cahrachter has ways to counter it\nC8 fully grounded chrachter cant really see combinations with it but for a rare pretty good pasives"]],
+    ["terra_keybladeyan",[10,9,9,"saba",""]],
+
+    ["shinji_hangedman",[10,7,9,"joshua",""]],
+    ["shinji_hangedman",[10,9,9,"saba","D10 B9 C 10 - x = 9"]],
+    ["shinji_hangedman",[10,8,9,"saba","D10 golden sigma pigma fits shinji\nB8 could go out of ahnd if used correctly pairs up well with teammates is countered by mge 1v1\nC9 some new pigma ehre in there passives synegize with le moveset pretty weak attacks which sprinkle on top of a good bankai\nGRUG!"]],
+
+    ["heathcliff_wildhunt",[9,9,9,"amadeo","D9 love purple but some color feel out of place and i don't icons are not consistent with each other i rape lil ah gids\nB9 tank buster not really fun to play against but to funny to play with if you count correctly, if you major econ in collage you gonna have fun\nC9 sanity debt is cool should weaken you more tho instead of restricting you cool moveset from a prewritten\ncharchater passives are a bit puzzling\nP.S play this card with le exel sheet"]],
+    ["shinji_hangedman",[10,10,10,"joshua","Realistically balance is 6\nBut whatever"]], 
+    ["shinji_hangedman",[10,7,9,"saba",""]], 
+
+    ["whales_prince",[10,7,9,"amadeo","D10 crispy tender slutty little card ill goon to it.\nB7 A bit too MUCH on the status effect side defenitly annnoynng to play againts because of passives but very team based card.\nC10 cool passive draw backs are cool symibose with le water is pretty neat sword mastery subari fubari pmos me but we good\nGRUG!!!!"]], 
+
+    ["vadim_giant",[8,6,10,"amadeo","D8 slava ukraini\nB6 depends on the team either pure cheeks or broken\nC10 unique concept never done before\nGRUG!!!! "]], 
+    ["vadim_giant",[8,7,9,"diorn",""]], 
+    ["vadim_giant",[10,10,10,"saba",""]], 
+    
+    ["drizes_frozensoul",[10,8,8,"amadeo","D10 prety chill cabt say much\nB8 annoying to play against fine to play with\nC8 surprisingly different from og drize i expected  less C but subverted expectations besides  that basic freeze build\nGRUGGGGGGGGGGGGGGG"]], 
+    ["drizes_frozensoul",[10,7,9,"saba","lung cancer grug"]], 
+    ["drizes_frozensoul",[9,7,10,"joshua","Drive"]], 
+
+    ["fulcrum_philosopher",[8,8,8,"eno","grugate D8 (carried by second page) B8 C8"]], 
+
+
 ]
 
 var orphantratings = []
