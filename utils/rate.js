@@ -364,7 +364,125 @@ var ratings = [
     ["drizes_frozensoul",[9,7,10,"joshua","Drive"]], 
 
     ["fulcrum_philosopher",[8,8,8,"eno","grugate D8 (carried by second page) B8 C8"]], 
+    ["fulcrum_philosopher",[9,7,10,"saba","D9 B7 [ that 7 luck is crazy ] C1984"]], 
+    ["fulcrum_philosopher",[9,6,10,"viie","holy skin, so fire he lichrully mindblazing"]], 
 
+    ["pirate_may",[10,10,9,"amadeo","D10 love the beach life guard astetic clean looking summer card (we need the fanservice beach version of the sprite make her butt booty naked caked up and oiled)\nB10 raw damage no bs status effects very straight foward suprisingly as a combo build no annoying to play againts\nC9 Utilizing water moves is beatuiful fighting game charachter proves that status effects are not necesary to secure a high c score\nGRUG"]], 
+    ["pirate_may",[9,7,10,"gogy","D10 (9.7) B10 C10 (9.98)\nGRUGnation"]], 
+    ["pirate_may",[9,7,10,"gogy","D10 (9.7) B10 C10 (9.98)\nGRUGnation"]], 
+
+    ["whales_prince",[10,6,9,"eno","D10 average josh card\nB6 i have a subtle feeling of impending doom\nC9 pretty creative and le poise tremor"]], 
+    ["whales_prince",[10,8,10,"saba",""]], 
+    ["whales_prince",[10,9,9,"gogy",""]], 
+
+    ["squall_leonheart",[10,8,10,"saba","Goofy"]], 
+    ["squall_leonheart",[8,6,9,"joshua",""]], 
+    ["squall_leonheart",[10,9,9,"gogy",""]], 
+
+    ["meursault_thumbcapo",[10,9,9,"eno","D10 it would be D2 because he reminds me of sinclair but ill be nice. Pretty clean and summer vibe card (burn)\nB5 I know how Meursault plays in limbus and this means this card is yet another “Glass Cannon Burn Build” (he has 500HP FOR SOME FUCKING REASON?) so i expect this card on the field to rape everything and not leave but instead disintegrate the board itself. Barely any cooldowns and rolls kinda small for the strength you gain\nC8 Just a limbus card with very minor changes from the representing identity other than the passives which carry the creativity ngl. “I added le tremor count im so le original”\n\nGrugation "]], 
+    ["meursault_thumbcapo",[9,6,8,"michael",""]], 
+    ["meursault_thumbcapo",[10,7,9,"amadeo","D10 where are le tigers sorounding le card and 10000 quadrillion mersailt png with le penjmain realistic png of smoke on le side of thr card so i cant fugin read le text? d1 only matching colors tiger theme simple yet strikingnB7 it is a legendary but only one passive actually nerf it other then that shower build that molests ops also title of card should be “pretty fun to make”\nC9 i like tiger theme tremor based fire no no you see its new beacause last time it was tremor fart now its tremor shart unique abilities but passives carry the C id be more critical but cmon this already exists in a game so cant do much"]], 
+    ["meursault_thumbcapo",[10,8,9,"viie","ISFK, hoch mad good like the sticker like look, for balance nothing seems sus(pect), fir e, mad tiger slayer creativityu, probably form a game that company but anywas, hoog"]], 
+    
+    ["ventus_keyblademan",[10,9,8,"gogy","ill goon to this one"]], 
+    ["ventus_keyblademan",[10,9,8,"joshua","D10 slutty first page as usual love it, this time im feeling generous so ill overlook the text mania on the second page (even though it can be reduced with icons) \nB7 I can never trust enea cards in term of balancing just like doesnt trust mine, this card probably has some hidden bullshit in it waiting for me to just thug it instantaneously \nC9 its a KH rework card, but its cool, plus nice haste addition, havent seen that status effect be used much other than in my cards tbh and thats also rare"]], 
+    ["ventus_keyblademan",[10,6,10,"saba",""]], 
+
+    ["agartha_ufo",[2,7,1,"joshua","What the fuck did I just read?\nGrug"]], 
+    ["agartha_ufo",[8,8,8,"saba","This cements uxdom as the best game\nD8 good visuals nice visibility icons are fine\nB8 fine both ways debuffs your team under certain sircumstances\nC8 ⚡️⚡️ 88  🦅🦅🦅 ✝️✝️✝️\ngrug"]], 
+    ["agartha_ufo",[8,9,10,"gogy","Grgu"]], 
+    ["agartha_ufo",[9,9,10,"viie","mabsolutely mad\ni wont let my opinions influence that still\nbasically **the Racist Card **\n(racist card by definition gives buffs/debuffs to random groups)"]], 
+
+    ["rage_spell",[10,10,8,"saba","Vinnie will have to input the crativity rating as clash"]], 
+    ["rage_spell",[8,10,8,"gogy",""]], 
+    ["rage_spell",[8,8,10,"viie","bro combined clash of clans rage with clash royale rage\nD:VIII;B:VIII;C:XI"]], 
+
+    ["mega_knight",[7,8,9,"joshua",""]], 
+    ["mega_knight",[7,8,8,"eno","D7 i honestly think you could do better the bg stands out a bit too much and the color scheme is a bit bland\nB8 megabyte in pocket\nC8 more vadim ish cards i like them but i feel this one might be a bit annoying MEGABYTE IN POCKET"]], 
+    ["mega_knight",[7,8,9,"viie","# ***thug***\n**MAD UNDERPOWERD FOR A LEGENDARY YOU CANT CONTROL**\n**PEOPLE COOK ME FOR THINGS LIKE THAT**\n**BUT FOR A LEGENDARY THAT ONLY DOES 25DMG WUTH NO AOE**\n**AND THEN GOES 25>12>6>3, SAME FOR OTHER ATTACKS,\nEVO IS INDEED TOO HIGH DMG, BUT SHOULD HAVE AOE**\n[EDIT]:\napproval:\ncongrats on firs autocard"]], 
+
+    ["wylder_jackoatmon",[9,9,9,"amadeo","D9 love your sisters view of the glittermaxing on the card makes it looks like the night sky, Text fits him feels like something you see in tripple A japanese game studio\nB9 forces you to be a overprotective mommy of the card being players favorite if you dont unc will do so play with other passive cards such as buildings solidus units whatever\nC9 more you play it better it becomes stamina is fine passives carry the card overshadowed by fulcrum but whatever"]], 
+    ["wylder_jackoatmon",[10,8,8,"gogy","grugnation"]], 
+    ["wylder_jackoatmon",[8,8,9,"michael","Dusting off the ol rating book"]], 
+
+    ["fiddle_sticks",[8,8,9,"eno","D7 Could use some tweaks in my humble opinion but it has potential. Kinda resembles my design in the corner block thing\nB9 Pretty simple epic a good break from the joshua epics that deal 4 billion dmg\nC7 not too crazy a few new stuff but not too crazy or insane\nGrug"]], 
+    ["fiddle_sticks",[9,9,10,"viie","very interesting, and a good way to do clones"]], 
+    ["fiddle_sticks",[7,8,7,"amadeo","D7 could work with more effects, figuring out design is like having sex for the first time its a bit akward and you are shy with it but slowly you get into a rythm\nB8 nothing annoying card plays decent as a dmg dealer could possibly require more tankish abilities but tis fine\nC7 nothing revolutionairy pretty good moves but taken from the media i dont see any of YOUR zest in it.\nGRUGGG"]], 
+
+    ["togi_trenbolone",[8,9,8,"eno","D8 Second page lowkey carries. I like chinese joshua aspect and shi not much to say\nB9 Balanced epic great rare depends on what you make it. Second phase makes him a tank could be used with anxiety to make enemies target him\nC8 Not too many new mechanics but not too repetitive pretty decent shi\ngrugate"]], 
+    ["togi_trenbolone",[9,8,8,"joshua",""]], 
+    ["togi_trenbolone",[9,7,9,"michael",""]], 
+
+    ["bastians_king",[10,10,10,"saba","I hereby decree, that this card will get bestowed a grug post haste"]], 
+    ["bastians_king",[10,9,10,"amadeo","D10 Good icons good cimetry custom persona bar amazing sprite good color scheme\nB9 Not the craziest quantom rape legendary But Still somewhat annoying to deal with because of the nature of the charachter\nC10 demolition, summoner, construction, burn build? :handsomeboy:\n dont mind if le do 🫳🏿"]], 
+    ["bastians_king",[10,8,10,"gogy","D10 B8 C10,000 (10)"]], 
+
+    ["takezh_molochite",[8,8,9,"eno","Awkward ass rating but\nD8 if it wasnt for the blank second page then it would have been a D9 maybe even a 10\nB8 seems okay but the insta draw thing should be left in 2022\nC9 pretty creative on the design. Love icons\nGrug"]], 
+    ["takezh_molochite",[8,8,8,"joshua","Gruggaga\nD8 creative design on the first page, but zecond page is just 2023 amadeo card\nB8 it's another draw condition card that only exists with the EVAs so that's cool and it's not unbalanced\nC8 same argument as for balance"]], 
+
+    ["shockette_battery",[8,9,9,"amadeo","D8 favorite color cool looking\nB9 easy to play with easy to counter\nC9 good build mixing construct wit elec+charge\nGRUG"]], 
+    ["shockette_battery",[9,9,10,"gogy","D9 I like the piss yellow for some reason it goes well with the card\nB9 fairly balanced\nC10 not much to say nice moveset\nGREk"]], 
+    ["shockette_battery",[9,9,9,"joshua",""]],
+
+    ["harpooner_george",[10,9,10,"gogy","D10 love the moldy ass design and icons to\nB9 what can I say\nC10 (10,000,000)"]],
+    ["harpooner_george",[9,8,10,"amadeo",""]],
+    ["harpooner_george",[8,7,10,"michael","passives card represents the card as a whole"]],
+
+    ["duke_american",[8,10,7,"eno","I will go easy since its his first time using photopea for this shit\nD8 not bad rookie\nB10 very balanced\nC7 some moves are already done\nGrugaga"]],
+    ["duke_american",[6,10,7,"joshua","B10\nC7\nD6 (im sorry boy, it has to be done)"]],
+    ["duke_american",[7,9,8,"amadeo","card is straight to the point the design more or so fits the whole payday esthetic rather than the character alone, this card from its tankiness might be annoying to play against but i how to teat that out in a match, allows for 2 way play style with supports and item buffs i image this could be a proper dps lord if played right."]],
+    ["duke_american",[9,9,9,"saba","Read inside of my math teachers bathroom, along with harpooner george over there, gurg"]],
+
+    ["harpooner_george",[10,6,8,"saba",""]],
+    ["harpooner_george",[10,8,8,"viie","fire card, good damage for rare i guess, nice colors and gradients, text icons dont look atrocious"]],
+
+    ["vadim_giant",[8,7,8,"joshua",""]], 
+
+    ["chris_kyle",[10,10,10,"joshua",""]], 
+    ["chris_kyle",[10,10,10,"saba",""]], 
+    ["chris_kyle",[10,10,10,"eno","D8 a remaster of the old card design style. Fits the card but ultimately isnt perfect.\nB10 what can i say\nC7 nothing new tbh \nGRUGAGGA no nostalgia baiting"]], 
+
+    ["inklings_splatoon",[10,8,10,"amadeo",""]], 
+    ["inklings_splatoon",[9,8,10,"joshua","D9 design is nice and sleek, gets a bit repetitive but that's the main point of it i guess since they're inklings and it's all about ink, overall it's cool and all but I think something more could've been done, but as is it's nicely made.\nB8 It's a capture based card, don't see much of those, but in the end it's kinda cool right, the thing is it can be broken with building cards that I think about it now.\nC10 A capture main card hasn't really been done before there's been semi-concepts but never the full thing so that's cool and I give it 10 big boo- i meam creativity points."]], 
+    ["inklings_splatoon",[10,8,10,"nika","ok. Grug\nD10 really unique design \nB9 similar to your other cards, overall well balanced dmg and cooldowns (although I’ve never seen a 20 round cooldown before, sounds crazy)\nC10 I like the bomb and ink mechanic 👍\n really interested in trying them out\nI hope this rating is to your liking, sir drize "]], 
+
+    ["clone_spell",[8,8,8,"joshua","D8 Basic design, slutty\nB8 Fairly balanced, and the trade off value for using it isn't bad, and you can easily kill the clone\nC8 it's a clash card"]], 
+    ["clone_spell",[8,7,7,"amadeo","D8 Smart\nB7 very annoying in good hands especially immobilization based cards\nC7 pretty good transition into uxdom environment for a very simple card"]], 
+    ["clone_spell",[10,10,8,"gogy","D10 genius design (i made that joke)\nB10 perfectly balanced as all things should be\nC8 not much to say except for the fact that it has 30 hp making it more distractable \nGRUG"]], 
+
+    
+    ["mini_pekka",[8,8,9,"amadeo","GRUGH!!!"]], 
+    
+    ["captain_jun",[7,8,8,"joshua","I re read it again, it's fine by me as a card"]], 
+    ["captain_jun",[10,8,7,"amadeo",""]], 
+    ["captain_jun",[9,9,9,"gogy",""]], 
+
+    ["rengoku_flamehashira",[8,4,7,"eno","Design is a 8 and Creativity is a 7 \nNow let me get to the balance\nTotal Balance Dissection (Passives) : Indomitable will stacks up infinitely and the buffs are permanent theoretically you could revive him and the fact that you have to take dmg wont matter.\nKeen Intellect is just a general dmg and defensive buff with no prerequisite or downside.\nSpeed and Reflexes is just “how do i make my card impossible to kill” so not only do you get debuffs on the first move you land but also on the first move that hits him? “Cannot be hit by surprise attacks” Alright do i even need to say anything? This is just bullshit and ruins mechanics of multiple cards.\nExtrasensory perception is just the nail in the coffin now your general abilities will deal a total of no damage and even if you were to remove the passive above you still get the “unable to surprise attack” even though it was already mentioned that enemies couldnt? The demon and bleed thing is passable.\nWarriors spirit. Let me get this straight. He gets buffed under 300hp and you added the “buff under 40% hp” but im DISSECTING the card so i noticed. Its a buff at 200HP which makes him now straight up bullshit to fight against. Unmovable untouchable and infinite strength stacking. Utter bullshit.\nTotal Dissection (Abilities): \nUnknowing fire: net 8 for 25dmg seems fair right? Then you read more and you see 10 burn, chainable and free luck gain which in addition to the passives above can grant you more than enough types of buffs that allow you to more than just land moves. Now this move is chainable with rss which is also a bit batshit.\nRising Scorching Sun: catches enemies mid air i like to see that finally be used somewhere other than my cards. 40dmg more luck stacking again (unnecessary) and same burn infliction. But it is chainable AGAIN.\nBlazing Universe: breaks parries and blocks not terrible but still annoying. Applies burn and 2 counter dice. Ability itself is fine but of course its in a 3 hour long multiplication combo which inflicts a total of 30 burn and i dont even have to mention the rolls because you can deadass just leave him to die and you can gather so much strength you just can ignore the rolls. \nLets get to the specials\nBlooming Flame: this shit has two functions. A parry and an attack. Funny thing is you roll it 4 times and you inflict 1 immobilize per hit. Luckily josh raped immobilize so its only 2 per character. Problem is he attacks MULTIPLE AT ONCE. And all of this on a 2 round cooldown wow.\nFlame tiger:duel mechanic. Would be fine if it didnt fucking deal 160dmg and a buttload of burn. 4rc is at least manageable\nNinth form: oh my days. Instant dmg plus the passives make this ability insta hit. Also because the point of this unit is to lower hp as fast as possible to use passives makes it even worse that he can attack multiple enemies. He gains MORE attack power if the enemy has burn and rolls even less if he is about to die. And permanent burn? Im sorry but this would be fine if it was lower than 20.\nFinal Balance rating of 4\nSinglehandedly makes burn the most op status ingame not because of infliction but because of buff stacking and being pretty much impossible to kill\nNeeds an nerf in my opinion and the B4 is beyond fair in my opinion"]], 
+    ["rengoku_flamehashira",[10,9,9,"amadeo","D10 B9 C9 GRUG!!!!!!!!!!!! (subject up to change) "]], 
+    ["rengoku_flamehashira",[10,5,9,"saba","D10\nB5 [ Jesus christ ]\nC9\nyour starting to powercreep the game a bit too much unc, grug "]], 
+    ["rengoku_flamehashira",[10,7,9,"gogy",""]], 
+
+    ["yuffie_kisaragi",[10,9,10,"gogy","D10 B9 C10 MOMMY GRUG!!!"]], 
+    ["yuffie_kisaragi",[10,9,8,"joshua",""]], 
+    ["yuffie_kisaragi",[10,8,10,"amadeo","GRUG D10 B8 C10 I LOVE YOU ENEAAAAAAAAAAAAA 🧡🧡🧡🧡🧡\nno homo nigga"]], 
+
+    ["inferno_dragon",[9,6,7,"joshua",""]], 
+    ["inferno_dragon",[10,8,9,"saba","Lung Cancer grug"]], 
+    ["inferno_dragon",[9,7,9,"eno","D9 love font and general placement but feels a bit empty at times\nB7 easily gets kills\nC9 MORE CLASH OF COCKS"]], 
+    ["inferno_dragon",[7,7,10,"amadeo",""]], 
+
+    ["zarzour_rushdown",[9,9,10,"gogy",""]], 
+    ["zarzour_rushdown",[10,10,10,"eno","I wish it was stronger"]], 
+    ["zarzour_rushdown",[7,6,10,"joshua",""]], 
+
+    ["vines_spell",[8,8,8,"eno",""]], 
+    ["vines_spell",[8,8,9,"amadeo",""]], 
+    ["vines_spell",[8,6,6,"joshua",""]], 
+
+    ["axel_fireboy",[8,9,10,"gogy","D8 small text and bright ass red text hurts my eyes also sabagraph in passives but its aight i guessn\nB9 not much to say unique skills are balanced\nC10 cool arc mechanic\nGRUG"]], 
+    ["axel_fireboy",[9,8,10,"amadeo",""]], 
+
+    
 
 ]
 

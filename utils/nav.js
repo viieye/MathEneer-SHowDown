@@ -2,7 +2,8 @@ var wikimode=0
 var selchar=-1
 var simpledisplay = 1
 // var filter="stat/rate/wavrg"
-var filter="stat/month/this"
+var filter="stat/month/27"
+// var filter="stat/month/this"
 // var filter="stat/image"
 // var filter="stat/noimg"
 
@@ -65,21 +66,21 @@ function showallcards() {
     toxt+='<div class="ricegum fullcard">'
 
     toxt+='<div class="ricegum"><input type="text" id="filterinput" value="'+filter+'">'
-    toxt+=`<div class="butt" onclick="filter='';showallcards()">x</div>`
-    toxt+=`<div class="butt" onclick="filter=document.getElementById('filterinput').value;showallcards()">search</div>`
+    toxt+=`<div class="butt" onclick="filter='';showallcards()" tabindex="0" role="button">x</div>`
+    toxt+=`<div class="butt" onclick="filter=document.getElementById('filterinput').value;showallcards()" tabindex="0" role="button">search</div>`
     toxt+=`<div class="butt">`+predata.length+`</div></div>`
 
-    toxt+='<div onclick="statmode()" class="butt">statmode</div>'
+    toxt+='<div onclick="statmode()" class="butt" tabindex="0" role="button">statmode</div>'
 
-    toxt+='<div onclick="newcardmenu()" class="butt">newcardmenu</div>'
+    toxt+='<div onclick="newcardmenu()" class="butt" tabindex="0" role="button">newcardmenu</div>'
 
 
-    toxt+='<div onclick="loadboard()" class="butt">loadboard</div>'
-    toxt+='<div onclick="rolledchars()" class="butt">rolledchars</div>'
+    toxt+='<div onclick="loadboard()" class="butt" tabindex="0" role="button">loadboard</div>'
+    toxt+='<div onclick="rolledchars()" class="butt" tabindex="0" role="button">rolledchars</div>'
 
     
 
-    toxt+='<div class="ricegum"><div onclick="togglewiki()" class="butt">toggle wiki mode</div>'
+    toxt+='<div class="ricegum"><div onclick="togglewiki()" class="butt" tabindex="0" role="button">toggle wiki mode</div>'
     toxt+='<div class="butt">'+wikimode+'</div></div>'
 
     toxt+='</div>'
@@ -103,7 +104,7 @@ function cardgetratings(cardid,approx) {
         }
         let avrijs = [0,0,0,0]
         for (let i = 0; i < totals.length; i++) {
-            avrijs[i]=Math.floor(approx*totals[i]/leng)/approx
+            avrijs[i]=Math.round(approx*totals[i]/leng)/approx
         }
         //wavrg
         let totalsplus = [33,11,11,11]
@@ -115,7 +116,7 @@ function cardgetratings(cardid,approx) {
         }
         let avrijsplus = [0,0,0,0]
         for (let i = 0; i < totals.length; i++) {
-            avrijsplus[i]=Math.floor(approx*totalsplus[i]/(leng+2))/approx
+            avrijsplus[i]=Math.round(approx*totalsplus[i]/(leng+2))/approx
         }
         return [totals,avrijs,avrijsplus]
     }
@@ -126,8 +127,8 @@ function cardgetratings(cardid,approx) {
 function selectcard(cardid) {
     selchar=cardid
 
-    let toxt = '<div onclick="showallcards()" id="showolkards" class="butt">showallcards</div>'
-    toxt+='<div onclick="rolledchars()" class="butt">rolledchars</div>'
+    let toxt = '<div onclick="showallcards()" id="showolkards" class="butt" tabindex="0" role="button">showallcards</div>'
+    toxt+='<div onclick="rolledchars()" class="butt" tabindex="0" role="button">rolledchars</div>'
     toxt+='<div class="fullcard"><div class="half">'
 
     toxt+='<div class="images">'
@@ -465,7 +466,7 @@ function vizcard(cardid) {
 
     let toxt = ""
     toxt+='<div class="smallcard butt" onclick="selectcard('+cardid
-    toxt+=')"><div class="images">'
+    toxt+=')" tabindex="0" role="button"><div class="images">'
     let len = (simpledisplay==1)? 1:data[cardid].cardimglink.length
     for (let i = 0; i < len; i++) {
         toxt+='<div class="onecard" style="background-image: url('
@@ -505,11 +506,11 @@ function statmode() {
 
 
     toxt+=`<div onclick="" id="datexp" class="microfont"></div>`
-    toxt+=`<div onclick="vizdata(1)" class="butt">export</div>`
-    toxt+='<div onclick="showallcards()" id="showolkards" class="butt">showallcards</div>'
-    toxt+='<div onclick="newcardmenu()" class="butt">newcardmenu</div>'
-    toxt+='<div onclick="loadboard()" class="butt">loadboard</div>'
-    toxt+='<div onclick="rolledchars()" class="butt">rolledchars</div>'
+    toxt+=`<div onclick="vizdata(1)" class="butt" tabindex="0" role="button">export</div>`
+    toxt+='<div onclick="showallcards()" id="showolkards" class="butt" tabindex="0" role="button">showallcards</div>'
+    toxt+='<div onclick="newcardmenu()" class="butt" tabindex="0" role="button">newcardmenu</div>'
+    toxt+='<div onclick="loadboard()" class="butt" tabindex="0" role="button">loadboard</div>'
+    toxt+='<div onclick="rolledchars()" class="butt" tabindex="0" role="button">rolledchars</div>'
 
     toxt+='<div class="ricegum">'
     toxt+='<div class="butt">month</div>'
@@ -649,6 +650,8 @@ function makerProfile(makername) {
         link.onclick = commandis[i]
         link.appendChild(document.createTextNode(commandis[i].name))
         link.classList.add("butt")
+        link.tabIndex = 0
+        link.role = "button"
         document.getElementById('content').appendChild(link)
     }
 
@@ -711,6 +714,8 @@ function makerProfile(makername) {
     sellallcards.classList.add("text")
     sellallcards.appendChild(document.createTextNode("see all cards"))
     sellallcards.onclick = function(){filter='maker/'+makername;showallcards()}
+    sellallcards.tabIndex = 0
+    sellallcards.role = "button"
     half2.appendChild(sellallcards)
 
     // let gpa2 = document.createElement("div");
@@ -806,7 +811,8 @@ function makerProfile(makername) {
         
             let images1 = document.createElement("div")
             images1.classList.add("images")
-            for (let ind = 0; ind < data[cardshow[i].id].cardimglink.length; ind++) {
+            // for (let ind = 0; ind < data[cardshow[i].id].cardimglink.length; ind++) {
+            for (let ind = 0; ind < 1; ind++) {
                 let images2 = document.createElement("div")
                 images2.classList.add("onecard")
                 images2.style.backgroundImage = "url("+ linker +'images/mainclass_cards/' + data[cardshow[i].id].cardimglink[ind] + ")"

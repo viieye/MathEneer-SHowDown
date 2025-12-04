@@ -703,7 +703,7 @@ thumbnail_link:"",
 },   
 {
 charcode:"fiddle_sticks",
-name:"fiddle sticks",
+name:"Fiddlesticks",
 bias:3,
 klas:8,
 maker:"polmich",

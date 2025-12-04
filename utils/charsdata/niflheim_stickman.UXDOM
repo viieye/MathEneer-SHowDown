@@ -1,0 +1,21 @@
+{
+charcode:"niflheim_stickman",
+name:"Niflheim stickman",
+bias:3,
+klas:10,
+maker:"gogy",
+tags:['masculine_gender','humanoid','game_origins'],
+fulltags:[],
+actions:[
+],
+passives:[
+	{initial_health:500,max_health:500,
+	initial_stagger:100,max_stagger:100,
+	object_sprite:""},
+],
+desc:"desc",
+month:27,
+ratings:[],
+cardimglink:[],
+thumbnail_link:"",
+},
