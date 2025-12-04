@@ -482,7 +482,22 @@ var ratings = [
     ["axel_fireboy",[8,9,10,"gogy","D8 small text and bright ass red text hurts my eyes also sabagraph in passives but its aight i guessn\nB9 not much to say unique skills are balanced\nC10 cool arc mechanic\nGRUG"]], 
     ["axel_fireboy",[9,8,10,"amadeo",""]], 
 
+    ["niflheim_stickman",[9,8,8,"eno","D9 (9.4) idk what but it misses smth but great rework in design\nB8 Not bad but i see abuse potential, high dmg high status infliction\nC8 average overall nothing new done but thank god no more 2 billion moves"]], 
+    ["niflheim_stickman",[10,9,6,"amadeo","D10\nB9 (reliable+stack)\nC6"]], 
+    ["niflheim_stickman",[9,10,9,"grei","Very good kar and I think it dose not need another rework ❤️"]], 
+ 
+    ["xion_keybladeyan",[10,8,10,"amadeo",""]], 
+    ["xion_keybladeyan",[10,8,7,"saba",""]], 
+
+    ["niflheim_stickman",[10,10,7,"saba",""]], 
     
+    ["xion_keybladeyan",[10,9,9,"gogy",""]], 
+
+    ["hasan_piker",[10,9,9,"eno","D9 i love the first page so much the icons and the three lil bars problem arises on the passives which is really tuff and the bg is awesome but its just empty pretty much\nB8 I see how it could be used to fuck you over, empeach is extremely annoying but seems kind of fun to play against? Not sure yet.\nC10 goblinstein if he fucks with bestiality. \nGRUG"]], 
+    ["hasan_piker",[9,7,10,"joshua",""]], 
+    ["hasan_piker",[7,8,10,"gogy",""]], 
+    ["hasan_piker",[10,9,10,"saba",""]], 
+
 
 ]
 

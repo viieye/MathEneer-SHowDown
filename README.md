@@ -14,7 +14,7 @@ the file structure is something like
 - [main directory]/images/mainclass_cards - *for your cards of classess support to legendary*
 - [main directory]/images/extraclass_cards - *for your cards of classess such as bosses, MCs and NPCs/events*
 - [main directory]/images/item_cards - *for your cards of items*
-- [main directory]/images/item_cards - *for your cards of items*
+- [main directory]/images/extra - *for graphic icons and other*
 
 future plans:
 ---
