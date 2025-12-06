@@ -95,7 +95,7 @@ setTimeout(startup, 100);
 function startup() {
     filltags()
     statmode()
-    showallcards()
+    // showallcards()
     // selectcard(0)
 }
 

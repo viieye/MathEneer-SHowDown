@@ -1,0 +1,21 @@
+{
+charcode:"larxene_electromancer",
+name:"Larxene electromancer",
+bias:3,
+klas:5,
+maker:"eno",
+tags:["empty_tag",],
+fulltags:[],
+actions:[
+],
+passives:[
+	{initial_health:250,max_health:250,
+	initial_stagger:100,max_stagger:100,
+	object_sprite:""},
+],
+desc:"desc",
+month:28,
+ratings:[],
+cardimglink:["larxene_electromancer1-0.png","larxene_electromancer2-0.png",],
+thumbnail_link:"",
+},

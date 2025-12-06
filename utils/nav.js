@@ -2,8 +2,8 @@ var wikimode=0
 var selchar=-1
 var simpledisplay = 1
 // var filter="stat/rate/wavrg"
-var filter="stat/month/27"
-// var filter="stat/month/this"
+// var filter="stat/month/27"
+var filter="stat/month/this"
 // var filter="stat/image"
 // var filter="stat/noimg"
 
@@ -140,6 +140,7 @@ function selectcard(cardid) {
         toxt+='" width="'
         toxt+=Math.floor(100/data[cardid].cardimglink.length)
         toxt+='%">'
+        // toxt+='" height="10%">'
     }
     toxt+='</div>'
     if (wikimode==0) {
@@ -1030,8 +1031,10 @@ function rolledcard(cardid) {
     let toxt = ""
     toxt+='<div class="smallcard butt" onclick="selectcard('+cardid
     toxt+=')"><div class="images">'
-    for (let i = 0; i < data[cardid].cardimglink.length; i++) {
-        toxt+='<div class="onecard" style="background-image: url(../../utils/cards/_unsorted/'
+    let leng = (simpledisplay==1)?1:data[cardid].cardimglink.length
+    leng=(data[cardid].cardimglink.length>0)?leng:0
+    for (let i = 0; i < leng; i++) {
+        toxt+='<div class="onecard" style="background-image: url('+linker+'images/mainclass_cards/'
         toxt+=data[cardid].cardimglink[i]
         toxt+=');width: '
         toxt+=Math.floor(100/data[cardid].cardimglink.length)

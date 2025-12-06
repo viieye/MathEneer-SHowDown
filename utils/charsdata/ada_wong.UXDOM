@@ -1,0 +1,21 @@
+{
+charcode:"ada_wong",
+name:"Ada Wong",
+bias:3,
+klas:3,
+maker:"nika",
+tags:["empty_tag",],
+fulltags:[],
+actions:[
+],
+passives:[
+	{initial_health:150,max_health:150,
+	initial_stagger:100,max_stagger:100,
+	object_sprite:""},
+],
+desc:"desc",
+month:27,
+ratings:[],
+cardimglink:["ada_wong1-0.png","ada_wong2-0.png",],
+thumbnail_link:"",
+},

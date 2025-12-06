@@ -498,6 +498,18 @@ var ratings = [
     ["hasan_piker",[7,8,10,"gogy",""]], 
     ["hasan_piker",[10,9,10,"saba",""]], 
 
+    ["ada_wong",[9,10,8,"eno","D10 holy smokes i can tell you have prior design experience. Potential woman of the uxdom game\nB10 extremely well balanced for an uncommon, straight away attacks and no backhanded bullshit like some of my own cards\nC7 Despite all of that i wouldnt call it exactly unique in abilities. Doesnt do anything that hasnt already somewhat been done but for a first card ill be lenient"]],
+    ["ada_wong",[9,10,8,"gogy","D9 I like the design overall, especially the background its just that its something about the font is off, great work for a first card either way\nB10 very well balanced\nC8 not much to say\nGRURG!"]],
+    ["ada_wong",[8,10,8,"joshua","Nothing much to note, good design, not top tier, obvious potential, uhhh balance is wonky but I won't change anything untill proven in battlefield, creativity? Well it's been done before sooooo"]], 
+
+    ["larxene_electromancer",[8,7,9,"joshua","D8 Card design is good overall, just the yellow, white and black is a bit too monotone and makes it a bit meh to read, the icons are good, reused concept but nothing much on that, I'd say your prior 2 cards did a better job at this type of design you tried to achieve\nB7 A rare that's got heavy electrocution infliction and paralyse application, will not be very fun to fight against\nC9 I guess it's something?"]], 
+   
+    ["ada_wong",[9,9,8,"michael",""]], 
+
+    ["larxene_electromancer",[10,9,9,"amadeo",""]], 
+    ["larxene_electromancer",[10,9,9,"saba","Aura monster"]], 
+    ["larxene_electromancer",[10,10,7,"viie","the new era of eno card design is upon us;\n appreciation for the icon designs should be voiced;\n the balance is that i dont see no problem;\n the creativity is a limited resource, chasing it is a zero sum game;\n electricity is future proof and modernistically solid;\n good card all in all, theres nothing to say more"]], 
+
 
 ]
 
