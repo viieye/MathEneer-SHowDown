@@ -1,5 +1,5 @@
 var knowntags = ['empty_tag',]
-
+var startatXAC = 0
 var datasort = 1
 var sorts = 0
 var neodata = []
@@ -95,7 +95,7 @@ setTimeout(startup, 100);
 function startup() {
     filltags()
     statmode()
-    // showallcards()
+    if (startatXAC==1) {showallcards()}
     // selectcard(0)
 }
 
