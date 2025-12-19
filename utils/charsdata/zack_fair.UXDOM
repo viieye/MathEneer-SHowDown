@@ -1,0 +1,21 @@
+{
+charcode:"zack_fair",
+name:"Zack Fair",
+bias:3,
+klas:8,
+maker:"eno",
+tags:["empty_tag"],
+fulltags:[],
+actions:[
+],
+passives:[
+	{initial_health:400,max_health:400,
+	initial_stagger:100,max_stagger:100,
+	object_sprite:""},
+],
+desc:"desc",
+month:28,
+ratings:[],
+cardimglink:[],
+thumbnail_link:"",
+},

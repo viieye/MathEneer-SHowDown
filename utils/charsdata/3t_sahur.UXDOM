@@ -1,0 +1,21 @@
+{
+charcode:"3t_sahur",
+name:"3T Sahur",
+bias:3,
+klas:3,
+maker:"eno",
+tags:["empty_tag"],
+fulltags:[],
+actions:[
+],
+passives:[
+	{initial_health:150,max_health:150,
+	initial_stagger:100,max_stagger:100,
+	object_sprite:""},
+],
+desc:"desc",
+month:28,
+ratings:[],
+cardimglink:[],
+thumbnail_link:"",
+},

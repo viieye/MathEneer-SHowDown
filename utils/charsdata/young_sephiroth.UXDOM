@@ -1,10 +1,10 @@
 {
-charcode:"inferno_dragon",
-name:"Inferno Dragon",
+charcode:"young_sephiroth",
+name:"Young Sephiroth",
 bias:3,
 klas:5,
-maker:"gogy",
-tags:["empty_tag",],
+maker:"eno",
+tags:["empty_tag"],
 fulltags:[],
 actions:[
 ],
@@ -16,6 +16,6 @@ passives:[
 desc:"desc",
 month:28,
 ratings:[],
-cardimglink:["inferno_dragon1-0.png",],
+cardimglink:[],
 thumbnail_link:"",
 },
