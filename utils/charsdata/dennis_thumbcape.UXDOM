@@ -1,0 +1,21 @@
+{
+charcode:"dennis_thumbcape",
+name:"Denis capi of thumb",
+bias:2,
+klas:3,
+maker:"joshua",
+tags:["human","masculine_gender","project_moon_franchise","warrior","lightskin",],
+fulltags:[],
+actions:[
+],
+passives:[
+	{initial_health:150,max_health:150,
+	initial_stagger:100,max_stagger:100,
+	object_sprite:""},
+],
+desc:"desc",
+month:8,
+ratings:[],
+cardimglink:["dennis_thumbcape1-0.png",],
+thumbnail_link:"",
+},

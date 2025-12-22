@@ -20,9 +20,13 @@ future plans:
 ---
 rater ranks, favourite cards - promoting rating more often
 boss and item section galleries
-to fix bugs with items,
+main character galleries
+main character rolling
+boss and event rolling
+to fix bugs for items spawning
 adding char entities on board, coupled with client version
 adding instructions for the search bar
+adding a ingame basic barebones attack calculation and basic servergame thing (the skeleton of a skeleton is there)
 
 
 igen thats it for now

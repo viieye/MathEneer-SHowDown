@@ -510,6 +510,48 @@ var ratings = [
     ["larxene_electromancer",[10,9,9,"saba","Aura monster"]], 
     ["larxene_electromancer",[10,10,7,"viie","the new era of eno card design is upon us;\n appreciation for the icon designs should be voiced;\n the balance is that i dont see no problem;\n the creativity is a limited resource, chasing it is a zero sum game;\n electricity is future proof and modernistically solid;\n good card all in all, theres nothing to say more"]], 
 
+    ["killerbean_ultima",[9,7,7,"eno",""]], 
+    ["killerbean_ultima",[7,6,10,"joshua",""]], 
+    ["killerbean_ultima",[8,7,9,"amadeo","SOO COLD TRUTH BE TOLDDD... THIS GRUGGG MAYBE DESRVED....."]], 
+    ["killerbean_ultima",[9,8,10,"eno",""]], 
+    ["killerbean_ultima",[8,9,10,"amadeo","Grugachino"]], 
+    ["killerbean_ultima",[9,9,9,"gogy","D9 B9 (certaintly better) C9"]], 
+
+    ["quiet_fighter",[8,10,9,"amadeo","D8 (i fell for ragebait) B10 C9 Should be glass cannon rare with above avarage stg"]], 
+    ["quiet_fighter",[10,8,8,"joshua","D8 (i fell for ragebait) B10 C9 Should be glass cannon rare with above avarage stg"]], 
+    ["quiet_fighter",[10,9,9,"saba","Give her specifically 264 hp"]], 
+    ["quiet_fighter",[10,8,8,"gogy",""]], 
+
+    ["young_sephiroth",[9,7,7,"joshua",""]], 
+    ["young_sephiroth",[10,8,8,"dantealb",""]], 
+    ["young_sephiroth",[9,8,9,"amadeo","GRUUG🔥🔥🔥"]], 
+
+    ["david_martinez",[9,8,9,"joshua",""]], 
+    ["david_martinez",[10,9,9,"amadeo","Wake the flip up amadeo we have a card to grug"]], 
+    ["david_martinez",[10,9,8,"dantealb","i couldn't wait for you to come and clear the grug"]], 
+
+    ["dan_tdm",[8,8,7,"eno",""]], 
+    ["dan_tdm",[8,8,8,"joshua",""]], 
+    ["dan_tdm",[8,8,9,"dantealb",""]], 
+    ["dan_tdm",[8,8,8,"amadeo",""]], 
+
+    ["seiichi_samura",[10,8,10,"amadeo",""]], 
+    ["seiichi_samura",[10,8,8,"gogy","GRGU!"]], 
+    ["seiichi_samura",[10,8,9,"saba","grug, I read it a while ago i just didnt grug it"]], 
+
+    ["zack_fair",[10,10,10,"amadeo","D10 🎰\n B10 🎰\n C10 🎰\n GRUG GRUG GRUG"]], 
+
+    ["nero_deviltriggerer",[9,8,8,"amadeo",""]], 
+    ["nero_deviltriggerer",[9,9,9,"gogy",'but if you say "i had fun making this card" next time im thugging it ']], 
+    ["nero_deviltriggerer",[8,9,9,"nika",""]], 
+
+    ["3t_sahur",[10,10,10,"saba","Gruhur \nVinnie gets to figure out what the rating is\nits a good one\nBut you gotta solve it"]], 
+    ["3t_sahur",[7,6,9,"gogy",""]], 
+    ["3t_sahur",[8,6,9,"amadeo",""]], 
+
+    ["father_gascoigne",[10,7,9,"joshua",""]], 
+    ["father_gascoigne",[7,8,9,"gogy","its a bit overstimulating, could have done better with the red"]], 
+    ["father_gascoigne",[9,9,10,"amadeo",""]], 
 
 ]
 

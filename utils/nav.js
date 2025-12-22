@@ -1,4 +1,4 @@
-var wikimode=0
+var wikimode=1
 var selchar=-1
 var simpledisplay = 1
 // var filter="stat/rate/wavrg"
@@ -1023,7 +1023,9 @@ function rolledchars() {
                 toxt += '</div>'
             }
         }
+        toxt+="MC:" + MCCs[mcs[team]]
     }
+    toxt+="warning, MCs list is imcomplete (very outdated (2024) ) some MCs might not appear"
     document.getElementById('content').innerHTML=toxt
 }
 

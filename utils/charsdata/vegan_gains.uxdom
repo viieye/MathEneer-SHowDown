@@ -29,7 +29,7 @@ passives:[
 	initial_stagger:100,max_stagger:100,
 	object_sprite:""},
 ],
-desc:"desc",
+desc:"Zack's love interest. Focuses on healing and debuffing the enemy through her skills.",
 month:8,
 ratings:[],
 cardimglink:["vegan_gains.png",],

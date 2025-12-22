@@ -1,10 +1,10 @@
 {
 charcode:"2017x_sonic",
-name:"2017x sonic",
+name:"2017x",
 bias:3,
 klas:10,
 maker:"saba",
-tags:["empty_tag"],
+tags:["empty_tag",],
 fulltags:[],
 actions:[
 ],
@@ -16,6 +16,6 @@ passives:[
 desc:"desc",
 month:28,
 ratings:[],
-cardimglink:[],
+cardimglink:["2017x_sonic1-1.png","2017x_sonic2-1.png","2017x_sonic3-0.png","2017x_sonic4-0.png",],
 thumbnail_link:"",
 },

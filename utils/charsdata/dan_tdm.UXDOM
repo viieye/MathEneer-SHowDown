@@ -1,10 +1,10 @@
 {
 charcode:"dan_tdm",
-name:"Dan TDM",
+name:"DanTDM",
 bias:3,
 klas:1,
 maker:"gogy",
-tags:["empty_tag"],
+tags:['masculine_gender','human','british','internet_origins','healer','combat-support',],
 fulltags:[],
 actions:[
 ],
@@ -16,6 +16,6 @@ passives:[
 desc:"desc",
 month:28,
 ratings:[],
-cardimglink:[],
+cardimglink:["dan_tdm1-3.png",],
 thumbnail_link:"",
 },

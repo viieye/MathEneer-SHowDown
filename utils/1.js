@@ -454,7 +454,7 @@ function downloadChardata(charID) {
 
     for (let i = 1; i < data[charID].passives.length; i++) {
     }
-    toxt+='\n],\ndesc:"desc",\nmonth:'+data[charID].month
+    toxt+='\n],\ndesc:"'+data[charID].desc+'",\nmonth:'+data[charID].month
     toxt+=',\nratings:['
     // for (let i = 0; i < data[charID].ratings.length; i++) {
     //     toxt+= '['+ data[charID].ratings[i][0]+','+ data[charID].ratings[i][1]+','+ data[charID].ratings[i][2]

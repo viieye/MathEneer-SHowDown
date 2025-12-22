@@ -1,6 +1,7 @@
 var boardarray = []
 var playernum = 4
 var teams = rollforcards(playernum)
+var mcs = rollformcs(playernum)
 var itemteam = rollplayeritems(playernum)
 var round = 0
 var rolledcards = []
@@ -331,6 +332,19 @@ function rollforcards(teamnumber) {
         sups = temparray
     }
     return teamarray
+}
+
+function rollformcs(teamnumber) {
+    let udzar = []
+    let usarr = []
+    for (let ind = 0; ind < teamnumber; ind++) {
+        for (let i = 0; i < MCCs.length; i++) {
+            if (!isin(i,udzar)) {usarr.push(i)}
+        }
+        let chosen = araranel(usarr)
+        udzar.push(chosen)
+    }
+    return udzar
 }
 
 function rollforclass(classparam) {
